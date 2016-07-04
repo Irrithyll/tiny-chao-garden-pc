@@ -1,0 +1,7449 @@
+fileFormatVersion: 2
+guid: 4c3e500101ac57943aaa4394384c8e7c
+timeCreated: 1467631433
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chao_0
+    21300002: chao_1
+    21300004: chao_2
+    21300006: chao_3
+    21300008: chao_4
+    21300010: chao_5
+    21300012: chao_6
+    21300014: chao_7
+    21300016: chao_8
+    21300018: chao_9
+    21300020: chao_10
+    21300022: chao_11
+    21300024: chao_12
+    21300026: chao_13
+    21300028: chao_14
+    21300030: chao_15
+    21300032: chao_16
+    21300034: chao_17
+    21300036: chao_18
+    21300038: chao_19
+    21300040: chao_20
+    21300042: chao_21
+    21300044: chao_22
+    21300046: chao_23
+    21300048: chao_24
+    21300050: chao_25
+    21300052: chao_26
+    21300054: chao_27
+    21300056: chao_28
+    21300058: chao_29
+    21300060: chao_30
+    21300062: chao_31
+    21300064: chao_32
+    21300066: chao_33
+    21300068: chao_34
+    21300070: chao_35
+    21300072: chao_36
+    21300074: chao_37
+    21300076: chao_38
+    21300078: chao_39
+    21300080: chao_40
+    21300082: chao_41
+    21300084: chao_42
+    21300086: chao_43
+    21300088: chao_44
+    21300090: chao_45
+    21300092: chao_46
+    21300094: chao_47
+    21300096: chao_48
+    21300098: chao_49
+    21300100: chao_50
+    21300102: chao_51
+    21300104: chao_52
+    21300106: chao_53
+    21300108: chao_54
+    21300110: chao_55
+    21300112: chao_56
+    21300114: chao_57
+    21300116: chao_58
+    21300118: chao_59
+    21300120: chao_60
+    21300122: chao_61
+    21300124: chao_62
+    21300126: chao_63
+    21300128: chao_64
+    21300130: chao_65
+    21300132: chao_66
+    21300134: chao_67
+    21300136: chao_68
+    21300138: chao_69
+    21300140: chao_70
+    21300142: chao_71
+    21300144: chao_72
+    21300146: chao_73
+    21300148: chao_74
+    21300150: chao_75
+    21300152: chao_76
+    21300154: chao_77
+    21300156: chao_78
+    21300158: chao_79
+    21300160: chao_80
+    21300162: chao_81
+    21300164: chao_82
+    21300166: chao_83
+    21300168: chao_84
+    21300170: chao_85
+    21300172: chao_86
+    21300174: chao_87
+    21300176: chao_88
+    21300178: chao_89
+    21300180: chao_90
+    21300182: chao_91
+    21300184: chao_92
+    21300186: chao_93
+    21300188: chao_94
+    21300190: chao_95
+    21300192: chao_96
+    21300194: chao_97
+    21300196: chao_98
+    21300198: chao_99
+    21300200: chao_100
+    21300202: chao_101
+    21300204: chao_102
+    21300206: chao_103
+    21300208: chao_104
+    21300210: chao_105
+    21300212: chao_106
+    21300214: chao_107
+    21300216: chao_108
+    21300218: chao_109
+    21300220: chao_110
+    21300222: chao_111
+    21300224: chao_112
+    21300226: chao_113
+    21300228: chao_114
+    21300230: chao_115
+    21300232: chao_116
+    21300234: chao_117
+    21300236: chao_118
+    21300238: chao_119
+    21300240: chao_120
+    21300242: chao_121
+    21300244: chao_122
+    21300246: chao_123
+    21300248: chao_124
+    21300250: chao_125
+    21300252: chao_126
+    21300254: chao_127
+    21300256: chao_128
+    21300258: chao_129
+    21300260: chao_130
+    21300262: chao_131
+    21300264: chao_132
+    21300266: chao_133
+    21300268: chao_134
+    21300270: chao_135
+    21300272: chao_136
+    21300274: chao_137
+    21300276: chao_138
+    21300278: chao_139
+    21300280: chao_140
+    21300282: chao_141
+    21300284: chao_142
+    21300286: chao_143
+    21300288: chao_144
+    21300290: chao_145
+    21300292: chao_146
+    21300294: chao_147
+    21300296: chao_148
+    21300298: chao_149
+    21300300: chao_150
+    21300302: chao_151
+    21300304: chao_152
+    21300306: chao_153
+    21300308: chao_154
+    21300310: chao_155
+    21300312: chao_156
+    21300314: chao_157
+    21300316: chao_158
+    21300318: chao_159
+    21300320: chao_160
+    21300322: chao_161
+    21300324: chao_162
+    21300326: chao_163
+    21300328: chao_164
+    21300330: chao_165
+    21300332: chao_166
+    21300334: chao_167
+    21300336: chao_168
+    21300338: chao_169
+    21300340: chao_170
+    21300342: chao_171
+    21300344: chao_172
+    21300346: chao_173
+    21300348: chao_174
+    21300350: chao_175
+    21300352: chao_176
+    21300354: chao_177
+    21300356: chao_178
+    21300358: chao_179
+    21300360: chao_180
+    21300362: chao_181
+    21300364: chao_182
+    21300366: chao_183
+    21300368: chao_184
+    21300370: chao_185
+    21300372: chao_186
+    21300374: chao_187
+    21300376: chao_188
+    21300378: chao_189
+    21300380: chao_190
+    21300382: chao_191
+    21300384: chao_192
+    21300386: chao_193
+    21300388: chao_194
+    21300390: chao_195
+    21300392: chao_196
+    21300394: chao_197
+    21300396: chao_198
+    21300398: chao_199
+    21300400: chao_200
+    21300402: chao_201
+    21300404: chao_202
+    21300406: chao_203
+    21300408: chao_204
+    21300410: chao_205
+    21300412: chao_206
+    21300414: chao_207
+    21300416: chao_208
+    21300418: chao_209
+    21300420: chao_210
+    21300422: chao_211
+    21300424: chao_212
+    21300426: chao_213
+    21300428: chao_214
+    21300430: chao_215
+    21300432: chao_216
+    21300434: chao_217
+    21300436: chao_218
+    21300438: chao_219
+    21300440: chao_220
+    21300442: chao_221
+    21300444: chao_222
+    21300446: chao_223
+    21300448: chao_224
+    21300450: chao_225
+    21300452: chao_226
+    21300454: chao_227
+    21300456: chao_228
+    21300458: chao_229
+    21300460: chao_230
+    21300462: chao_231
+    21300464: chao_232
+    21300466: chao_233
+    21300468: chao_234
+    21300470: chao_235
+    21300472: chao_236
+    21300474: chao_237
+    21300476: chao_238
+    21300478: chao_239
+    21300480: chao_240
+    21300482: chao_241
+    21300484: chao_242
+    21300486: chao_243
+    21300488: chao_244
+    21300490: chao_245
+    21300492: chao_246
+    21300494: chao_247
+    21300496: chao_248
+    21300498: chao_249
+    21300500: chao_250
+    21300502: chao_251
+    21300504: chao_252
+    21300506: chao_253
+    21300508: chao_254
+    21300510: chao_255
+    21300512: chao_256
+    21300514: chao_257
+    21300516: chao_258
+    21300518: chao_259
+    21300520: chao_260
+    21300522: chao_261
+    21300524: chao_262
+    21300526: chao_263
+    21300528: chao_264
+    21300530: chao_265
+    21300532: chao_266
+    21300534: chao_267
+    21300536: chao_268
+    21300538: chao_269
+    21300540: chao_270
+    21300542: chao_271
+    21300544: chao_272
+    21300546: chao_273
+    21300548: chao_274
+    21300550: chao_275
+    21300552: chao_276
+    21300554: chao_277
+    21300556: chao_278
+    21300558: chao_279
+    21300560: chao_280
+    21300562: chao_281
+    21300564: chao_282
+    21300566: chao_283
+    21300568: chao_284
+    21300570: chao_285
+    21300572: chao_286
+    21300574: chao_287
+    21300576: chao_288
+    21300578: chao_289
+    21300580: chao_290
+    21300582: chao_291
+    21300584: chao_292
+    21300586: chao_293
+    21300588: chao_294
+    21300590: chao_295
+    21300592: chao_296
+    21300594: chao_297
+    21300596: chao_298
+    21300598: chao_299
+    21300600: chao_300
+    21300602: chao_301
+    21300604: chao_302
+    21300606: chao_303
+    21300608: chao_304
+    21300610: chao_305
+    21300612: chao_306
+    21300614: chao_307
+    21300616: chao_308
+    21300618: chao_309
+    21300620: chao_310
+    21300622: chao_311
+    21300624: chao_312
+    21300626: chao_313
+    21300628: chao_314
+    21300630: chao_315
+    21300632: chao_316
+    21300634: chao_317
+    21300636: chao_318
+    21300638: chao_319
+    21300640: chao_320
+    21300642: chao_321
+    21300644: chao_322
+    21300646: chao_323
+    21300648: chao_324
+    21300650: chao_325
+    21300652: chao_326
+    21300654: chao_327
+    21300656: chao_328
+    21300658: chao_329
+    21300660: chao_330
+    21300662: chao_331
+    21300664: chao_332
+    21300666: chao_333
+    21300668: chao_334
+    21300670: chao_335
+    21300672: chao_336
+    21300674: chao_337
+    21300676: chao_338
+    21300678: chao_339
+    21300680: chao_340
+    21300682: chao_341
+    21300684: chao_342
+    21300686: chao_343
+    21300688: chao_344
+    21300690: chao_345
+    21300692: chao_346
+    21300694: chao_347
+    21300696: chao_348
+    21300698: chao_349
+    21300700: chao_350
+    21300702: chao_351
+    21300704: chao_352
+    21300706: chao_353
+    21300708: chao_354
+    21300710: chao_355
+    21300712: chao_356
+    21300714: chao_357
+    21300716: chao_358
+    21300718: chao_359
+    21300720: chao_360
+    21300722: chao_361
+    21300724: chao_362
+    21300726: chao_363
+    21300728: chao_364
+    21300730: chao_365
+    21300732: chao_366
+    21300734: chao_367
+    21300736: chao_368
+    21300738: chao_369
+    21300740: chao_370
+    21300742: chao_371
+    21300744: chao_372
+    21300746: chao_373
+    21300748: chao_374
+    21300750: chao_375
+    21300752: chao_376
+    21300754: chao_377
+    21300756: chao_378
+    21300758: chao_379
+    21300760: chao_380
+    21300762: chao_381
+    21300764: chao_382
+    21300766: chao_383
+    21300768: chao_384
+    21300770: chao_385
+    21300772: chao_386
+    21300774: chao_387
+    21300776: chao_388
+    21300778: chao_389
+    21300780: chao_390
+    21300782: chao_391
+    21300784: chao_392
+    21300786: chao_393
+    21300788: chao_394
+    21300790: chao_395
+    21300792: chao_396
+    21300794: chao_397
+    21300796: chao_398
+    21300798: chao_399
+    21300800: chao_400
+    21300802: chao_401
+    21300804: chao_402
+    21300806: chao_403
+    21300808: chao_404
+    21300810: chao_405
+    21300812: chao_406
+    21300814: chao_407
+    21300816: chao_408
+    21300818: chao_409
+    21300820: chao_410
+    21300822: chao_411
+    21300824: chao_412
+    21300826: chao_413
+    21300828: chao_414
+    21300830: chao_415
+    21300832: chao_416
+    21300834: chao_417
+    21300836: chao_418
+    21300838: chao_419
+    21300840: chao_420
+    21300842: chao_421
+    21300844: chao_422
+    21300846: chao_423
+    21300848: chao_424
+    21300850: chao_425
+    21300852: chao_426
+    21300854: chao_427
+    21300856: chao_428
+    21300858: chao_429
+    21300860: chao_430
+    21300862: chao_431
+    21300864: chao_432
+    21300866: chao_433
+    21300868: chao_434
+    21300870: chao_435
+    21300872: chao_436
+    21300874: chao_437
+    21300876: chao_438
+    21300878: chao_439
+    21300880: chao_440
+    21300882: chao_441
+    21300884: chao_442
+    21300886: chao_443
+    21300888: chao_444
+    21300890: chao_445
+    21300892: chao_446
+    21300894: chao_447
+    21300896: chao_448
+    21300898: chao_449
+    21300900: chao_450
+    21300902: chao_451
+    21300904: chao_452
+    21300906: chao_453
+    21300908: chao_454
+    21300910: chao_455
+    21300912: chao_456
+    21300914: chao_457
+    21300916: chao_458
+    21300918: chao_459
+    21300920: chao_460
+    21300922: chao_461
+    21300924: chao_462
+    21300926: chao_463
+    21300928: chao_464
+    21300930: chao_465
+    21300932: chao_466
+    21300934: chao_467
+    21300936: chao_468
+    21300938: chao_469
+    21300940: chao_470
+    21300942: chao_471
+    21300944: chao_472
+    21300946: chao_473
+    21300948: chao_474
+    21300950: chao_475
+    21300952: chao_476
+    21300954: chao_477
+    21300956: chao_478
+    21300958: chao_479
+    21300960: chao_480
+    21300962: chao_481
+    21300964: chao_482
+    21300966: chao_483
+    21300968: chao_484
+    21300970: chao_485
+    21300972: chao_486
+    21300974: chao_487
+    21300976: chao_488
+    21300978: chao_489
+    21300980: chao_490
+    21300982: chao_491
+    21300984: chao_492
+    21300986: chao_493
+    21300988: chao_494
+    21300990: chao_495
+    21300992: chao_496
+    21300994: chao_497
+    21300996: chao_498
+    21300998: chao_499
+    21301000: chao_500
+    21301002: chao_501
+    21301004: chao_502
+    21301006: chao_503
+    21301008: chao_504
+    21301010: chao_505
+    21301012: chao_506
+    21301014: chao_507
+    21301016: chao_508
+    21301018: chao_509
+    21301020: chao_510
+    21301022: chao_511
+    21301024: chao_512
+    21301026: chao_513
+    21301028: chao_514
+    21301030: chao_515
+    21301032: chao_516
+    21301034: chao_517
+    21301036: chao_518
+    21301038: chao_519
+    21301040: chao_520
+    21301042: chao_521
+    21301044: chao_522
+    21301046: chao_523
+    21301048: chao_524
+    21301050: chao_525
+    21301052: chao_526
+    21301054: chao_527
+    21301056: chao_528
+    21301058: chao_529
+    21301060: chao_530
+    21301062: chao_531
+    21301064: chao_532
+    21301066: chao_533
+    21301068: chao_534
+    21301070: chao_535
+    21301072: chao_536
+    21301074: chao_537
+    21301076: chao_538
+    21301078: chao_539
+    21301080: chao_540
+    21301082: chao_541
+    21301084: chao_542
+    21301086: chao_543
+    21301088: chao_544
+    21301090: chao_545
+    21301092: chao_546
+    21301094: chao_547
+    21301096: chao_548
+    21301098: chao_549
+    21301100: chao_550
+    21301102: chao_551
+    21301104: chao_552
+    21301106: chao_553
+    21301108: chao_554
+    21301110: chao_555
+    21301112: chao_556
+    21301114: chao_557
+    21301116: chao_558
+    21301118: chao_559
+    21301120: chao_560
+    21301122: chao_561
+    21301124: chao_562
+    21301126: chao_563
+    21301128: chao_564
+    21301130: chao_565
+    21301132: chao_566
+    21301134: chao_567
+    21301136: chao_568
+    21301138: chao_569
+    21301140: chao_570
+    21301142: chao_571
+    21301144: chao_572
+    21301146: chao_573
+    21301148: chao_574
+    21301150: chao_575
+    21301152: chao_576
+    21301154: chao_577
+    21301156: chao_578
+    21301158: chao_579
+    21301160: chao_580
+    21301162: chao_581
+    21301164: chao_582
+    21301166: chao_583
+    21301168: chao_584
+    21301170: chao_585
+    21301172: chao_586
+    21301174: chao_587
+    21301176: chao_588
+    21301178: chao_589
+    21301180: chao_590
+    21301182: chao_591
+    21301184: chao_592
+    21301186: chao_593
+    21301188: chao_594
+    21301190: chao_595
+    21301192: chao_596
+    21301194: chao_597
+    21301196: chao_598
+    21301198: chao_599
+    21301200: chao_600
+    21301202: chao_601
+    21301204: chao_602
+    21301206: chao_603
+    21301208: chao_604
+    21301210: chao_605
+    21301212: chao_606
+    21301214: chao_607
+    21301216: chao_608
+    21301218: chao_609
+    21301220: chao_610
+    21301222: chao_611
+    21301224: chao_612
+    21301226: chao_613
+    21301228: chao_614
+    21301230: chao_615
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chao_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 580
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 580
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 580
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 580
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 580
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 580
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 580
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 580
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 580
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 580
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_20
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 580
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 580
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_23
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 580
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_24
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_26
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 580
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_27
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 580
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_28
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 580
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_29
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 580
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_31
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 580
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_32
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_33
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_34
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 580
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_35
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_36
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_37
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_38
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_39
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 583
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_40
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 583
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_41
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 583
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_42
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_43
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_44
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_45
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_46
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_47
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 580
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 580
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_49
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 580
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_50
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 580
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_51
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_52
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_53
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 580
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_54
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 580
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_55
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 580
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 522
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_58
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 522
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_59
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 522
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_60
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 522
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_61
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 522
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_63
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_64
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_67
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 522
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_68
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 522
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 522
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 522
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_71
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_72
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_73
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_74
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_75
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 522
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_76
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_77
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 522
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_78
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 522
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_79
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 522
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_81
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_82
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 522
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_83
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 522
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_84
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 522
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_85
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 522
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_86
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_87
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 522
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_88
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_89
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_90
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 522
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_91
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_92
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_93
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_94
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_95
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 525
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_96
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 525
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_97
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 525
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_98
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_99
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_100
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_101
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_102
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_103
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 522
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_104
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 522
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_105
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 522
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_106
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 522
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_107
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_108
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_109
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 522
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_110
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 522
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_111
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 522
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 464
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_114
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 464
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_115
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 464
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_116
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 464
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_117
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 464
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_118
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_119
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_120
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_121
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_122
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_123
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 464
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_124
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 464
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_125
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 464
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_126
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 464
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_127
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_128
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_129
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_130
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_131
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 464
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_132
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_133
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 464
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_134
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 464
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_135
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 464
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_136
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_137
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_138
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 464
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_139
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 464
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_140
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 464
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_141
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 464
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_142
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_143
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 464
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_144
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_145
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_146
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 464
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_147
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_148
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_149
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_150
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_151
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 467
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_152
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 467
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_153
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 467
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_154
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_155
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_156
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_157
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_158
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_159
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 464
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_160
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 464
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_161
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 464
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_162
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 464
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_163
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_164
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_165
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 464
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_166
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 464
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_167
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 464
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_169
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 406
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_170
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 406
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_171
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 406
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_172
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 406
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_173
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 406
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_174
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_175
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_176
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_177
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_178
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_179
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 406
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_180
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 406
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_181
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 406
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_182
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 406
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_183
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_184
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_185
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_186
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_187
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 406
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_188
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_189
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 406
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_190
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 406
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_191
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 406
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_192
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_193
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_194
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 406
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_195
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 406
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_196
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 406
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_197
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 406
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_198
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_199
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 406
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_200
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_201
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_202
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 406
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_203
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_204
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_205
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_206
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_207
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 409
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_208
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 409
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_209
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 409
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_210
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_211
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_212
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_213
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_214
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_215
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 406
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_216
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 406
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_217
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 406
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_218
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 406
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_219
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_220
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_221
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 406
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_222
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 406
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_223
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 406
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_225
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 348
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_226
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 348
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_227
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 348
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_228
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 348
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_229
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 348
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_230
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_231
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_232
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_233
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_234
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_235
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 348
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_236
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 348
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_237
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 348
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 348
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_239
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_240
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_241
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_242
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_243
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 348
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_244
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_245
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 348
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_246
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 348
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_247
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 348
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_248
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_249
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_250
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 348
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_251
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 348
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_252
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 348
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_253
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 348
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_254
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_255
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 348
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_256
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_257
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_258
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 348
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_259
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_260
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_261
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_262
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_263
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 351
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_264
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 351
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_265
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 351
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_266
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_267
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_268
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_269
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_270
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_271
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 348
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_272
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 348
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_273
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 348
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_274
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 348
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_275
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_276
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_277
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 348
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_278
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 348
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_279
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 348
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_281
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 290
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_282
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 290
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_283
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 290
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_284
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 290
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_285
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 290
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_286
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_287
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_288
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_289
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_290
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_291
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 290
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_292
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 290
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_293
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 290
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_294
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 290
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_295
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_296
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_297
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_298
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_299
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 290
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_300
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_301
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 290
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_302
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 290
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_303
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 290
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_304
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_305
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_306
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 290
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_307
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 290
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_308
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 290
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_309
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 290
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_310
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_311
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 290
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_312
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_313
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_314
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 290
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_315
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_316
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_317
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_318
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_319
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 293
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_320
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 293
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_321
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 293
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_322
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_323
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_324
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_325
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_326
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_327
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 290
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_328
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 290
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_329
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 290
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_330
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 290
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_331
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_332
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_333
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_334
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 290
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_335
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 290
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_336
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_337
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 232
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_338
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 232
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_339
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 232
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_340
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 232
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_341
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 232
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_342
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_343
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_344
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_345
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_346
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_347
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 232
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_348
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 232
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_349
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 232
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_350
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 232
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_351
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_352
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_353
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_354
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_355
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 232
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_356
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_357
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 232
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_358
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 232
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_359
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 232
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_360
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_361
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_362
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 232
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_363
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 232
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_364
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 232
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_365
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 232
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_366
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_367
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 232
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_368
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_369
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_370
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 232
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_371
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_372
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_373
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_374
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_375
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 235
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_376
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 235
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_377
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 235
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_378
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_379
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_380
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_381
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_382
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_383
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 232
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_384
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 232
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_385
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 232
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_386
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 232
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_387
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_388
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_389
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 232
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_390
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 232
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_391
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 232
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_392
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_393
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 174
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_394
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 174
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_395
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 174
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_396
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 174
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_397
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 174
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_398
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_399
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_400
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_401
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_402
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_403
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 174
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_404
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 174
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_405
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 174
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_406
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 174
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_407
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_408
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_409
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_410
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_411
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 174
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_412
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_413
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 174
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_414
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 174
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_415
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 174
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_416
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_417
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_418
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 174
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_419
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 174
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_420
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 174
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_421
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 174
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_422
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_423
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 174
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_424
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_425
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_426
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 174
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_427
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_428
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_429
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_430
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_431
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 177
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_432
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 177
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_433
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 177
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_434
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_435
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_436
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_437
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_438
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_439
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 174
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_440
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 174
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_441
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 174
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_442
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 174
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_443
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_444
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_445
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 174
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_446
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 174
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_447
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 174
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_448
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_449
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 116
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_450
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 116
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_451
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 116
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_452
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 116
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_453
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 116
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_454
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_455
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_456
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_457
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_458
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_459
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 116
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_460
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 116
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_461
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 116
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_462
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 116
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_463
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_464
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_465
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_466
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_467
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 116
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_468
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_469
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 116
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_470
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 116
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_471
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 116
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_472
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_473
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_474
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 116
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_475
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 116
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_476
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 116
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_477
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 116
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_478
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_479
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 116
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_480
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_481
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_482
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 116
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_483
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_484
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_485
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_486
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_487
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 119
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_488
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 119
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_489
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 119
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_490
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_491
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_492
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_493
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_494
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_495
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 116
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_496
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 116
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_497
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 116
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_498
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 116
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_499
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_500
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_501
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_502
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 116
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_503
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 116
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_504
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_505
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 58
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_506
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 58
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_507
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 58
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_508
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 58
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_509
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 58
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_510
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_511
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_512
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_513
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_514
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_515
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 58
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_516
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 58
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_517
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 58
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_518
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 58
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_519
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_520
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_521
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_522
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_523
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 58
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_524
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_525
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 58
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_526
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 58
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_527
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 58
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_528
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_529
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_530
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 58
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_531
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 58
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_532
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 58
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_533
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 58
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_534
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_535
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 58
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_536
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_537
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_538
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 58
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_539
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_540
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_541
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_542
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_543
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 61
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_544
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 61
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_545
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 61
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_546
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_547
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_548
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_549
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_550
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_551
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 58
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_552
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 58
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_553
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 58
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_554
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 58
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_555
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_556
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_557
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 58
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_558
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 58
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_559
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 58
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_560
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_561
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_562
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_563
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_564
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_565
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_566
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_567
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_568
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_569
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_570
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_571
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_572
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_573
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_574
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_575
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_576
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_577
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_578
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_579
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_580
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_581
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_582
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_583
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_584
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_585
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_586
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_587
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_588
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_589
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_590
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_591
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_592
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_593
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_594
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_595
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_596
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_597
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_598
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_599
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_600
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 3
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_601
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 3
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_602
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_603
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_604
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_605
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_606
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_607
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_608
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_609
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_610
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 0
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_611
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_612
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_613
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_614
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 0
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_615
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
