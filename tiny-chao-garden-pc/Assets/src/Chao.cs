@@ -568,6 +568,8 @@ public class Chao {
     private ColourSA2B DNAcolour2; //0x3CD 1229
     private bool DNAmonotoneFlag1; //0x4CE 1230
     private bool DNAmonotoneFlag2; //0x4CF 1231
+    private TextureSA2B DNAtexture1; //0x4D0 1232
+    private TextureSA2B DNAtexture2; //0x4D1 1233
     private bool DNAshinyFlag1; //0x4D2 1234
     private bool DNAshinyFlag2; //0x4D3 1235
     private EggColourSA2B DNAeggColour1; //0x4D4 1236
@@ -622,7 +624,7 @@ public class Chao {
     private byte NormalCarefreePersonality; //0x155 341
 
 
-    //CHAO CONSTRUCTOR
+    //CHAO CONSTRUCTOR INIT VARIABLES
     public Chao() {
 
         //INTIALIZE SOME CHAO VARIABLES
@@ -736,6 +738,62 @@ public class Chao {
         DNAfavouriteFruit1 = FavouriteFruit.None1;
         DNAfavouriteFruit2 = FavouriteFruit.None2;
 
+        //appearance
+        DNAcolour1 = ColourSA2B.Normal;
+        DNAcolour2 = ColourSA2B.Normal;
+        DNAmonotoneFlag1 = true;
+        DNAmonotoneFlag2 = true;
+        DNAtexture1 = TextureSA2B.None;
+        DNAtexture2 = TextureSA2B.None;
+        DNAshinyFlag1 = false;
+        DNAshinyFlag2 = false;
+        DNAeggColour1 = EggColourSA2B.Normal;
+        DNAeggColour2 = EggColourSA2B.Normal;
+
+        /* CHARACTER BONDS */
+        SonicBond = 0;
+        ShadowBond = 0;
+        TailsBond = 0;
+        EggmanBond = 0;
+        KnucklesBond = 0;
+        RougeBond = 0;
+
+        /* EMOTIONS */
+        //standard
+        desireToMate = 0;
+        hunger = 0;
+        sleepiness = 0;
+        tiredness = 0;
+        boredom = 0;
+        energy = 0;
+
+        //animated behaviours
+        joy = 0;
+        urgeToCry = 0;
+        fear = 0;
+        dizziness = 0;
+
+        /* HEALTH */
+        coughLevel = 0;
+        coldLevel = 0;
+        rashLevel = 0;
+        runnyNoseLevel = 0;
+        hiccupLevel = 0;
+        stomachAcheLevel = 0;
+
+        /* PERSONALITY */
+        favouriteFruit = FavouriteFruit.None1;
+        NormalCuriousPersonality = 0;
+        NaiveNormalPersonality = 0;
+        CryBabyEnergeticPersonality = 0;
+        NormalBigEaterPersonality = 0;
+        NormalCarefreePersonality = 0;
+
+
+    }
+
+    public void randomlyCreateChao() {
+        this.name = "random";
 
 
     }
