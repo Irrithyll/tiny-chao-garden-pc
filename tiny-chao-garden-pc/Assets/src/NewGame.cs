@@ -15,7 +15,7 @@ public class NewGame : MonoBehaviour {
 
         //prepare a new chao egg	
         Debug.Log("PREPARING NEW CHAO EGG, PLEASE WAIT....");
-
+        Chao chao = new Chao();
 
         //go to chao_garden
         Debug.Log("LOADING CHAO GARDEN, PLEASE WAIT....");
@@ -24,6 +24,7 @@ public class NewGame : MonoBehaviour {
         
         //spawn new chao egg in garden
         Debug.Log("SPAWNING NEW CHAO EGG, PLEASE WAIT....");
+        
 
     }
 

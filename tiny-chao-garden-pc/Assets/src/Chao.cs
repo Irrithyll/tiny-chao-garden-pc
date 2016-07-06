@@ -293,8 +293,8 @@ public class Chao {
         Drum = 134217728,
         Flute = 268435456,
         Maracas = 536870912,
-        Trumpet = 1073741824,
-        Tambourine = 2147483648
+        Trumpet = 1073741824
+        //Tambourine = 2147483647 //should end in 8 but exceeds maximum int value
     }
 
     private enum HatsSA2B
@@ -437,7 +437,7 @@ public class Chao {
 
     /* GENERAL */
     //GENERAL : basics
-    private string name; //0x12 18
+    public string name { get;set; } //0x12 18
     private byte happiness; //0x82 130
     private bool resetTrigger; //0x438 1080
 
@@ -797,8 +797,5 @@ public class Chao {
 
 
     }
-
-
-
 
 }
