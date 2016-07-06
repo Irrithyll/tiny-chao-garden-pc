@@ -297,6 +297,141 @@ public class Chao {
         Tambourine = 2147483648
     }
 
+    private enum HatsSA2B
+    {
+        None,
+        Pumpkin,	
+        Skull,	
+        Apple,	
+        Bucket,	
+        EmptyCan,
+        CardboardBox,
+        FlowerPot,	
+        PaperBag,	
+        Pan,
+        Stump,
+        Watermelon,
+        RedWoolBeanie,	
+        BlueWoolBeanie,
+        BlackWoolBeanie,
+        Pacifier,
+        NormalEggShell,
+        YellowMonoToneEggShell,	
+        WhiteMonoToneEggShell,
+        BrownMonoToneEggShell,
+        SkyBlueMonoToneEggShell,
+        PinkMonoToneEggShell,
+        BlueMonoToneEggShell,	
+        GreyMonoToneEggShell,
+        GreenMonoToneEggShell,
+        RedMonoToneEggShell,
+        LimeGreenMonoToneEggShell,
+        PurpleMonoToneEggShell,
+        OrangeMonoToneEggShell,	
+        BlackMonoToneEggShell,	
+        YellowTwoToneEggShell,
+        WhiteTwoToneEggShell,
+        BrownTwoToneEggShell,
+        SkyBlueTwoToneEggShell,
+        PinkTwoToneEggShell,
+        BlueTwoToneEggShell,
+        GreyTwoToneEggShell,
+        GreenTwoToneEggShell,
+        RedTwoToneEggShell,
+        LimeGreenTwoToneEggShell,
+        PurpleTwoToneEggShell,
+        OrangeTwoToneEggShell,
+        BlackTwoToneEggShell,	
+        NormalShinyEggShell,
+        YellowShinyMonoToneEggShell,
+        WhiteShinyMonoToneEggShell,
+        BrownShinyMonoToneEggShell,
+        SkyBlueShinyMonoToneEggShell,
+        PinkShinyMonoToneEggShell,
+        BlueShinyMonoToneEggShell,
+        GreyShinyMonoToneEggShell,	
+        GreenShinyMonoToneEggShell,	
+        RedShinyMonoToneEggShell,
+        LimeGreenShinyMonoToneEggShell,
+        PurpleShinyMonoToneEggShell,
+        OrangeShinyMonoToneEggShell,
+        BlackShinyMonoToneEggShell,
+        YellowShinyTwoToneEggShell,
+        WhiteShinyTwoToneEggShell,
+        BrownShinyTwoToneEggShell,
+        SkyBlueShinyTwoToneEggShell,
+        PinkShinyTwoToneEggShell,
+        BlueShinyTwoToneEggShell,
+        GreyShinyTwoToneEggShell,
+        GreenShinyTwoToneEggShell,
+        RedShinyTwoToneEggShell,
+        LimeGreenShinyTwoToneEggShell,
+        PurpleShinyTwoToneEggShell,	
+        OrangeShinyTwoToneEggShell,
+        BlackShinyTwoToneEggShell,	
+        GlitchyNormalEggShell
+    }
+
+    private enum Medals 
+    {
+        None,
+        Aquamarine,
+        Topaz,
+        Peridot,
+        Garnet,
+        Onyx,
+        Diamond,
+        Beginner,
+        Challenge,
+        Hero,
+        Dark,
+        Pearl,
+        Amethyst,
+        Emerald,
+        Ruby,
+        Sapphire
+    }
+
+    private enum BodyTypeSA2B
+    {
+        Normal = 0,
+        EggChao = 1,
+        Omochao = 2,
+        Animal = 3,
+        None = 5
+    }
+
+    private enum AnimalSA2B
+    {
+        Penguin,
+        Seal,
+        Otter,
+        Rabbit,
+        Cheetah,
+        Warthog,
+        Bear,
+        Tiger,
+        Gorilla,
+        Peacock,
+        Parrot,
+        Condor,
+        Skunk,
+        Sheep,
+        Raccoon,
+        HalfFish,
+        SkeletonDog,
+        Bat,
+        Dragon,
+        Unicorn,
+        Pheonix,
+        YellowChaosDrive,
+        GreenChaosDrive,
+        RedChaosDrive,
+        PurpleChaosDrive,
+        None = 255
+    }
+    
+
 
 
 
@@ -374,6 +509,38 @@ public class Chao {
     private Mouth mouth; //0xD2 210
     private Emotiball emotiball; //0xD3 211
     private bool hiddenFeetFlag; //0xD6 214
+    private BodyTypeSA2B bodyType; //0xDD 221
+    private AnimalSA2B bodyTypeAnimal; // 0xDE 222
+    
+    //APPEARANCE : accessories
+    private Medals medal; //0xD7 215
+    private HatsSA2B hat; //0xD5 213
+
+    //APPEARANCE : animal parts
+    //SA2B
+    private AnimalSA2B armsSA2B; //0x11C 284
+    private AnimalSA2B earsSA2B; //0x11D 285
+    private AnimalSA2B foreheadSA2B; // 0x11E 286
+    private AnimalSA2B hornsSA2B; //0x11F 287
+    private AnimalSA2B legsSA2B; // 0x120 288
+    private AnimalSA2B tailSA2B; //0x121 289
+    private AnimalSA2B wingsSA2B; //0x122 290
+    private AnimalSA2B faceSA2B; //0x123 291
+
+    //SADX
+    /*
+    private AnimalSADX armsSADX; // 0x4E4 1252
+    private AnimalSADX earsSADX; // 0x4E5 1253
+    private AnimalSADX foreheadSADX; //0x4E6 1254
+    private AnimalSADX hornsSADX; //0x4E7 1255
+    private AnimalSADX legsSADX; //0x4E8 1256
+    private AnimalSADX tailSADX; //0x4E9 1257
+    private AnimalSADX wingsSADX; //0x4EA 1258
+     */
+
+
+
+
 
     /* DNA */
     //DNA : grades
@@ -455,7 +622,120 @@ public class Chao {
     private byte NormalCarefreePersonality; //0x155 341
 
 
+    //CHAO CONSTRUCTOR
     public Chao() {
+
+        //INTIALIZE SOME CHAO VARIABLES
+
+        /* GENERAL */
+        //basic
+        name = "";
+        happiness = 0;
+        resetTrigger = true;
+        remainingLifespan1 = 3800;
+        remainingLifespan2 = 3800;
+        reincarnations = 0;
+
+        //abilities
+        animalBehavioursSA2B = 0;
+        animalBehavioursSADX = 0;
+        classRoomSkillsSA2B = 0;
+        toysSA2B = 0;
+
+        /* EVOLUTION */
+        //evolution
+        chaoType = ChaoType.Egg;
+        alignment = 0;
+        runPowerTrans = 0;
+        swimFlyTrans = 0;
+        transMaginitude = 0;
+
+        /* APPERANCE */
+        //breed
+        colour = ColourSA2B.Normal;
+        monotoneFlag = true;
+        texture = TextureSA2B.None;
+        shinyFlag = false;
+        eggColour = EggColourSA2B.Normal;
+
+        //accessories
+        medal = Medals.None;
+        hat = HatsSA2B.None;
+
+        //body shape
+        bodyType = BodyTypeSA2B.Normal;
+        bodyTypeAnimal = AnimalSA2B.None;
+        eyes = Eyes.Normal;
+        mouth = Mouth.ClosedSmile;
+        emotiball = Emotiball.Normal;
+        hiddenFeetFlag = false;
+        
+        //animal parts
+        armsSA2B = AnimalSA2B.None;
+        earsSA2B = AnimalSA2B.None;
+        foreheadSA2B = AnimalSA2B.None;
+        hornsSA2B = AnimalSA2B.None;
+        legsSA2B = AnimalSA2B.None;
+        tailSA2B = AnimalSA2B.None;
+        wingsSA2B = AnimalSA2B.None;
+        faceSA2B = AnimalSA2B.None;
+
+        /* STATS */
+        //stat bars
+        swimStatBar = 0;
+        flyStatBar = 0;
+        runStatBar = 0;
+        powerStatBar = 0;
+        staminaStatBar = 0;
+        luckStatBar = 0;
+        intelligenceStatBar = 0;
+
+        //stat level
+        swimLevel = 0;
+        flyLevel = 0;
+        runLevel = 0;
+        powerLevel = 0;
+        staminaLevel = 0;
+        luckLevel = 0;
+
+        //stat points
+        swimStatPoints = 0;
+        flyStatPoints = 0;
+        runStatPoints = 0;
+        powerStatPoints = 0;
+        staminaStatPoints = 0;
+        intelligenceStatPoints = 0;
+
+        //grades
+        swimGrade = Grade.E;
+        flyGrade = Grade.E;
+        runGrade = Grade.E;
+        powerGrade = Grade.E;
+        staminaGrade = Grade.E;
+        luckGrade = Grade.E;
+        intelligenceGrade = Grade.E;
+
+        /* DNA */
+        //stat grades
+        DNAswim1 = Grade.E;
+        DNAswim2 = Grade.E;
+        DNAfly1 = Grade.E;
+        DNAfly2 = Grade.E;
+        DNArun1 = Grade.E;
+        DNArun2 = Grade.E;
+        DNApower1 = Grade.E;
+        DNApower2 = Grade.E;
+        DNAstamina1 = Grade.E;
+        DNAstamina2 = Grade.E;
+        DNAluck1 = Grade.E;
+        DNAluck2 = Grade.E;
+        DNAintelligence1 = Grade.E;
+        DNAintelligence2 = Grade.E;
+
+        //personality
+        DNAfavouriteFruit1 = FavouriteFruit.None1;
+        DNAfavouriteFruit2 = FavouriteFruit.None2;
+
 
 
     }
