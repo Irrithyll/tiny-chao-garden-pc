@@ -3,6 +3,14 @@ using System.Collections;
 
 public class Chao {
 
+    /* GLOBAL VARIABLES */
+    public static short DEFAULT_LIFESPAN = 3800;
+
+
+
+
+    /* CHAO VARIABLES */
+    
     /* ENUM TYPES*/
 
     private enum ChaoType
@@ -430,6 +438,14 @@ public class Chao {
         PurpleChaosDrive,
         None = 255
     }
+
+    private enum EvolutionState 
+    { 
+        Egg,
+        Child,
+        Adult,
+        Chaos
+    }
     
 
 
@@ -438,6 +454,7 @@ public class Chao {
     /* GENERAL */
     //GENERAL : basics
     public string name { get;set; } //0x12 18
+    private EvolutionState evoultionState;
     private byte happiness; //0x82 130
     private bool resetTrigger; //0x438 1080
 
@@ -624,6 +641,7 @@ public class Chao {
     private byte NormalCarefreePersonality; //0x155 341
 
 
+
     //CHAO CONSTRUCTOR INIT VARIABLES
     public Chao() {
 
@@ -631,7 +649,8 @@ public class Chao {
 
         /* GENERAL */
         //basic
-        name = "";
+        evoultionState = EvolutionState.Egg;
+        name = "noname";
         happiness = 0;
         resetTrigger = true;
         remainingLifespan1 = 3800;
@@ -792,9 +811,32 @@ public class Chao {
 
     }
 
-    public void randomlyCreateChao() {
-        this.name = "random";
+    public void initEgg(bool isReincarnating) {
+        if (isReincarnating == true) //pass on some stats
+        {
+            evoultionState = EvolutionState.Egg;
+            remainingLifespan1 = DEFAULT_LIFESPAN;
+            remainingLifespan2 = DEFAULT_LIFESPAN;
+            //pass on some stats here
+        }
+        else //init new egg
+        {
+            evoultionState = EvolutionState.Egg;
+            remainingLifespan1 = DEFAULT_LIFESPAN;
+            remainingLifespan2 = DEFAULT_LIFESPAN;
 
+        }
+
+
+    }
+
+    public Chao loadChaoFile() {
+        Chao chao = new Chao();
+
+        //load the chao data from HEX file
+        chao.name = "savedChaoName";
+
+        return chao;
 
     }
 
