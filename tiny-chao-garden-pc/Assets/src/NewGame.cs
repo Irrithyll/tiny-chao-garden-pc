@@ -7,9 +7,6 @@ public class NewGame : MonoBehaviour {
         createNewGame();
     }
 
-    void OnMouseOver() {
-
-    }
 
     public void createNewGame(){ 
         //initialize the game

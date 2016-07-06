@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\src\Chao.cs" />
+     <Compile Include="Assets\src\MenuButton.cs" />
      <Compile Include="Assets\src\NewGame.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

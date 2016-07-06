@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ab9ad600d2a62044ba09668f6bd6f373
-timeCreated: 1467770347
+guid: f18b50a88f071034a8b2ffbf30ddc8af
+timeCreated: 1467770024
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: menu_options_continue
-    21300002: menu_options_new
+    21300000: menu_options_continue_hover
+    21300002: menu_options_new_hover
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,7 +52,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: menu_options_continue
+    - name: menu_options_continue_hover
       rect:
         serializedVersion: 2
         x: 0
@@ -63,7 +63,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: menu_options_new
+    - name: menu_options_new_hover
       rect:
         serializedVersion: 2
         x: 16
