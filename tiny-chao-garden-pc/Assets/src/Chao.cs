@@ -10,8 +10,8 @@ public class Chao {
         Empty,	
         Egg,	
         Child,	
-        Good,
-        Bad,
+        Good, //unobtainable
+        Bad, //unobtainable
         NeutralNormal,	
         HeroNormal,
         DarkNormal,
@@ -199,19 +199,126 @@ public class Chao {
         None2
     }
 
+    private enum ChaoGardenSA2B
+    {
+        ChaoGarden,
+        HeroGarden,
+        DarkGarden,
+        None = 255
+    }
 
- 
+    private enum AnimalFlagsSA2B
+    {
+        None,
+        Seal,
+        Penguin = 2,
+        Otter = 4,
+        Rabbit = 8,
+        Cheetah = 16,
+        Warthog = 32,
+        Bear = 64,
+        Tiger = 128,
+        Gorilla = 256,
+        Peacock = 512,
+        Parrot = 1024,
+        Condor = 2048,
+        Skunk = 4096,
+        Sheep = 8192,
+        Racoon = 16384,
+        HalfFish = 32768,
+        SkeletonDog = 65536,
+        Bat = 131072,
+        Dragon = 262144,
+        Unicorn = 524288,
+        Pheonix = 1048576
+    }
+
+    private enum AnimalFlagsSADX
+    {
+        None,
+        Seal,
+        Penguin = 2,
+        Otter = 4,
+        Peacock = 8,
+        Swallow = 16,
+        Parrot = 32,
+        Deer = 64,
+        Rabbit = 128,
+        Kangaroo = 256,
+        Gorilla = 512,
+        Lion = 1024,
+        Elephant = 2048,
+        Mole = 4096,
+        Koala = 8192,
+        Skunk = 16384
+    }
+
+    private enum ToyFlags
+    { 
+        None,
+        Rattle,
+        Car = 2,
+        PictureBook = 4,
+        SonicDoll = 8,
+        Broomstick = 32,
+        UnknownGlitchToy = 64,
+        PogoStick = 128,
+        Crayons = 256,
+        BubbleWand = 512,
+        Shovel = 1024,
+        WateringCan = 2048
+    }
+
+    private enum ClassRoomLessonFlags
+    { 
+        None,
+        DrawingLevel1,
+        DrawingLevel2,
+        DrawingLevel3 = 4,
+        DrawingLevel4 = 8,
+        DrawingLevel5 = 16,
+        ShakeDance = 256,
+        SpinDance = 512,
+        StepDance = 1024,
+        GoGoDance = 2048,
+        Exercise = 4096,
+        SongLevel1 = 65536,
+        SongLevel2 = 131072,
+        SongLevel3 = 262144,
+        SongLevel4 = 524288,
+        SongLevel5 = 1048576,
+        Bell = 16777216,
+        Castanets = 33554432,
+        Cymbals = 67108864,
+        Drum = 134217728,
+        Flute = 268435456,
+        Maracas = 536870912,
+        Trumpet = 1073741824,
+        Tambourine = 2147483648
+    }
+
+
 
 
     /* GENERAL */
     //GENERAL : basics
     private string name; //0x12 18
     private byte happiness; //0x82 130
+    private bool resetTrigger; //0x438 1080
+
     //GENERAL : life
     private short remainingLifespan1; //0x8A 138
     private short remainingLifespan2; //0x8C 140
     private short reincarnations; //0x8E 142
     private ChaoType chaoType; //0x80 128 ChaoType Enum
+
+    //GENERAL : learnt abilities
+    private short animalBehavioursSA2B; //0x228 280 //set as bit flags (from enum)
+    private short animalBehavioursSADX; //0x4E0 1248 //set as bit flags (from enum)
+    private int classRoomSkillsSA2B; //0x160 352 //set as bit flags (from enum)
+    private short toysSA2B; //0x164 356 //set as bit flags (from enum)
+
+
 
     /* EVOLUTION */
     //EVOLUTION : transformations
@@ -320,10 +427,37 @@ public class Chao {
     private short hunger; //0x138 312
     private short sleepiness; //0x134 292
     private short tiredness; //0x136 310
+    private short boredom; //0x13C 316
+    private short energy; //0x148 328
+
+    //EMOTIONS : animated behaviours
+    private byte joy; //0x12C 300
+    private byte urgeToCry; //0x12E 302
+    private byte fear; //0x12F 303
+    private byte dizziness; //0x131 305
+
+    /* HEALTH */
+    //HEALTH : all
+    private byte coughLevel; //0x15A 346
+    private byte coldLevel; //0x15B 347
+    private byte rashLevel; //0x15C 348
+    private byte runnyNoseLevel; //0x15D 349
+    private byte hiccupLevel; //0x15E 350
+    private byte stomachAcheLevel; //0x15F 351
+
+    /* PERSONALITY */
+    //PERSONALITY : all
+    private FavouriteFruit favouriteFruit; //0x157 343
+    private byte NormalCuriousPersonality; //0x14A 330
+    private byte CryBabyEnergeticPersonality; //0x14C 332
+    private byte NaiveNormalPersonality; //0x14D 333
+    private byte NormalBigEaterPersonality; //0x150 336
+    private byte NormalCarefreePersonality; //0x155 341
 
 
-    public Chao() { 
-    
+    public Chao() {
+
+
     }
 
 
