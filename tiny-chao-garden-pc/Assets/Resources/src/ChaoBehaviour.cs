@@ -4,7 +4,6 @@ using System.Collections;
 public class ChaoBehaviour : MonoBehaviour {
 
     public Chao chao;
-    
 
 	// Use this for initialization
 	void Start () {
@@ -28,4 +27,5 @@ public class ChaoBehaviour : MonoBehaviour {
 	void Update () {
 	
 	}
+
 }
