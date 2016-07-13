@@ -3,10 +3,20 @@ using System.Collections;
 
 public class ChaoBehaviour : MonoBehaviour {
 
+    private enum Animation
+    {
+        None,
+        Sit,
+        Trumpet
+
+    }
+
     public Chao chao;
     private SpriteRenderer chaoSprite;
     Sprite[] chaoSprites;
-
+    private Animation currAnim = Animation.None;
+    int frameIndex = 0;
+    float frameElapsed = 0;
 
 
     void Awake()
@@ -32,6 +42,8 @@ public class ChaoBehaviour : MonoBehaviour {
         Debug.Log("CHAO NAME : " + chao.name);
         chaoSprite = GetComponent<SpriteRenderer>();
         updateSprite();
+
+        currAnim = Animation.Sit;
         
 	}
 	
@@ -46,6 +58,8 @@ public class ChaoBehaviour : MonoBehaviour {
             chao.hatch();
             updateSprite();
         }
+
+        updateAnimation();
 	
 	}
 
@@ -78,6 +92,41 @@ public class ChaoBehaviour : MonoBehaviour {
             return;
         }
 
+    }
+
+    void playAnimation()
+    {
+
+        return;
+    }
+
+    void updateAnimation()
+    {
+
+        frameElapsed += Time.deltaTime;
+
+        if (currAnim == Animation.Trumpet)
+        {
+            if (frameElapsed > 1)
+            {
+                if (frameIndex == 0) { frameIndex = 1; }
+                else {frameIndex = 0;}
+                frameElapsed = 0;
+
+            }
+            chaoSprite.sprite = chaoSprites[frameIndex];
+
+        }
+        else if (currAnim == Animation.Sit)
+        {
+            chaoSprite.sprite = chaoSprites[3];
+        }
+        else
+        {
+            chaoSprite.sprite = chaoSprites[3];
+        }
+
+        return;
     }
 
 
