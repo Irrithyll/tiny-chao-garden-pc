@@ -5,6 +5,7 @@ public class Animation {
     public static Animation Sit = new Animation(new int[] { 3 });
     public static Animation Trumpet = new Animation(new int[] { 0, 1 });
     public static Animation Pet = new Animation(new int[] { 6, 7, 8 });
+    public static Animation Walk = new Animation(new int[] { 22, 26 });
 
     public int[] frames;
     public Animation(int[] frames) {
@@ -15,8 +16,8 @@ public class Animation {
 
 public class AnimationRenderer : MonoBehaviour {
     public Sprite[] spriteFrames;
+    public Animation currAnim = Animation.Sit;
     SpriteRenderer spriteRenderer;
-    Animation currAnim = Animation.Sit;
     float frameElapsed;
     int frameIndex;
 

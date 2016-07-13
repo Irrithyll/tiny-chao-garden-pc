@@ -2,12 +2,14 @@
 using System.Collections;
 
 public class ChaoBehaviour : MonoBehaviour {
-
-
     public Chao chao;
     int frameIndex = 0;
     float frameElapsed = 0;
     AnimationRenderer anim;
+
+
+    Vector2 walkTarget = new Vector2(-1,-1);
+    float walkSpeed = 0.5f;
 
     void Awake()
     {
@@ -42,6 +44,16 @@ public class ChaoBehaviour : MonoBehaviour {
             chao.hatch();
             updateSprite();
         }
+
+        if (Vector2.Distance(transform.position, walkTarget) > walkSpeed*Time.deltaTime) {
+            transform.Translate((walkTarget - (Vector2)transform.position).normalized * walkSpeed * Time.deltaTime);
+            anim.PlayAnimation(Animation.Walk);
+        } else if (anim.currAnim == Animation.Walk) {
+            transform.position = walkTarget;
+            anim.PlayAnimation(Animation.Sit);
+        }
+
+        walkTarget = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 	}
 
     void updateSprite() {
