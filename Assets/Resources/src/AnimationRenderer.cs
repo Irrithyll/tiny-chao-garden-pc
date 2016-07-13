@@ -32,7 +32,7 @@ public class AnimationRenderer : MonoBehaviour {
 
 	void Update () {
         frameElapsed += Time.deltaTime;
-        if (frameElapsed > 1) {
+        if (frameElapsed > 0.1f) {
             frameIndex += 1;
             frameElapsed = 0;
         }

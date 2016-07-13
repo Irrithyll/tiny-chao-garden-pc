@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum Action {
+    Idle,
+    PlayTrumpet
+}
+
 public class ChaoBehaviour : MonoBehaviour {
     public Chao chao;
     int frameIndex = 0;
     float frameElapsed = 0;
     AnimationRenderer anim;
+    public Action action = Action.Idle;
+    Transform heldItem = null;
 
-
+    Garden garden;
     Vector2 walkTarget = new Vector2(-1,-1);
-    float walkSpeed = 0.5f;
+    float walkSpeed = 1f;
 
     void Awake()
     {
@@ -18,6 +25,8 @@ public class ChaoBehaviour : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        garden = GetComponentInParent<Garden>();
+
         if (NewGame.newGame == true)
         {
             chao = new Chao();
@@ -30,11 +39,15 @@ public class ChaoBehaviour : MonoBehaviour {
         }
 
         chao.setTestChao();
-
+        action = Action.PlayTrumpet;
 //        Debug.Log("CHAO NAME : " + chao.name);
 	}
+
+    void PickUp(Transform item) {
+        heldItem = item;
+        item.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+    }
 	
-	// Update is called once per frame
 	void Update () {
         chao.ageDelta += Time.deltaTime;
 //        Debug.Log("Age Delta: " + (chao.ageDelta));
@@ -53,7 +66,20 @@ public class ChaoBehaviour : MonoBehaviour {
             anim.PlayAnimation(Animation.Sit);
         }
 
-        walkTarget = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if (action == Action.PlayTrumpet) {
+            if (heldItem == null) {                
+                var trumpet = garden.GetComponentInChildren<Trumpet>();
+                walkTarget = trumpet.transform.position;
+
+                if (Vector2.Distance(transform.position, walkTarget) < walkSpeed*Time.deltaTime) {
+                    PickUp(trumpet.GetComponent<Transform>());
+                }
+            } else if (heldItem.GetComponent<Trumpet>()) {
+                anim.PlayAnimation(Animation.Trumpet);
+            }
+        }
+
+        //walkTarget = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 	}
 
     void updateSprite() {

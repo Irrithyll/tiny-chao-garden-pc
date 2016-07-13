@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class OnLoad : MonoBehaviour {
-
+public class Garden : MonoBehaviour {
     public Transform chaoPrefab;
     Transform chao;
 
