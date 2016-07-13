@@ -3,25 +3,15 @@ using System.Collections;
 
 public class ChaoBehaviour : MonoBehaviour {
 
-    private enum Animation
-    {
-        None,
-        Sit,
-        Trumpet
-
-    }
 
     public Chao chao;
-    private SpriteRenderer chaoSprite;
-    Sprite[] chaoSprites;
-    private Animation currAnim = Animation.None;
     int frameIndex = 0;
     float frameElapsed = 0;
-
+    AnimationRenderer anim;
 
     void Awake()
     {
-        chaoSprites = Resources.LoadAll<Sprite>("img/sprites/chao/chao_amethyst");
+        anim = GetComponent<AnimationRenderer>();
     }
 
 	// Use this for initialization
@@ -40,16 +30,12 @@ public class ChaoBehaviour : MonoBehaviour {
         chao.setTestChao();
 
         Debug.Log("CHAO NAME : " + chao.name);
-        chaoSprite = GetComponent<SpriteRenderer>();
-        updateSprite();
 
-        currAnim = Animation.Sit;
-        
+        anim.PlayAnimation(Animation.Trumpet);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
         chao.ageDelta += Time.deltaTime;
         Debug.Log("Age Delta: " + (chao.ageDelta));
 
@@ -58,77 +44,26 @@ public class ChaoBehaviour : MonoBehaviour {
             chao.hatch();
             updateSprite();
         }
-
-        updateAnimation();
-	
 	}
 
     void updateSprite() {
         if (chao.isEgg())
-        {
-
             return;
-        }
+
         if (chao.colour == Chao.ColourSA2B.Black || chao.texture == Chao.TextureSA2B.BlackJewel)
         {
             //set to onyx sprite
-            chaoSprite.sprite = Resources.Load<Sprite>("img/sprites/chao/chao_normal");
-            return;
+            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
         }else if (chao.colour == Chao.ColourSA2B.Blue || chao.texture == Chao.TextureSA2B.BlueJewel){
-            //set to sapphire sprite
-            chaoSprite.sprite = Resources.Load<Sprite>("img/sprites/chao/chao_normal");
-            return;
+            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
         }
         else if (chao.colour == Chao.ColourSA2B.Red || chao.texture == Chao.TextureSA2B.RedJewel)
         {
-            //set to garnet sprite
-            chaoSprite.sprite = Resources.Load<Sprite>("img/sprites/chao/chao_normal");
-            return;
+            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
         }
         else
         {
-            //set to normal sprite
-            chaoSprite.sprite = chaoSprites[3];
-            return;
+            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
         }
-
     }
-
-    void playAnimation()
-    {
-
-        return;
-    }
-
-    void updateAnimation()
-    {
-
-        frameElapsed += Time.deltaTime;
-
-        if (currAnim == Animation.Trumpet)
-        {
-            if (frameElapsed > 1)
-            {
-                if (frameIndex == 0) { frameIndex = 1; }
-                else {frameIndex = 0;}
-                frameElapsed = 0;
-
-            }
-            chaoSprite.sprite = chaoSprites[frameIndex];
-
-        }
-        else if (currAnim == Animation.Sit)
-        {
-            chaoSprite.sprite = chaoSprites[3];
-        }
-        else
-        {
-            chaoSprite.sprite = chaoSprites[3];
-        }
-
-        return;
-    }
-
-
-
 }
