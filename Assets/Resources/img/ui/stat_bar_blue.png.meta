@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: acaa62e4c1ca0144f9163e875c7e2e7f
+timeCreated: 1468135322
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stat_bar_blue_0
+    21300002: stat_bar_blue_1
+    21300004: stat_bar_blue_2
+    21300006: stat_bar_blue_3
+    21300008: stat_bar_blue_4
+    21300010: stat_bar_blue_5
+    21300012: stat_bar_blue_6
+    21300014: stat_bar_blue_7
+    21300016: stat_bar_blue_8
+    21300018: stat_bar_blue_9
+    21300020: stat_bar_blue_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: stat_bar_blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stat_bar_blue_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 51
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

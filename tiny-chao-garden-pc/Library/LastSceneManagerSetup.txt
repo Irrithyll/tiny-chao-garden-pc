@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Resources/scenes/scene_chao_garden.unity
-  isLoaded: 1
-  isActive: 1

@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: e9ff986901a76f34ba75f7a825ed96cb
+timeCreated: 1468119241
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chao_sapphire_0
+    21300002: chao_sapphire_1
+    21300004: chao_sapphire_2
+    21300006: chao_sapphire_3
+    21300008: chao_sapphire_4
+    21300010: chao_sapphire_5
+    21300012: chao_sapphire_6
+    21300014: chao_sapphire_7
+    21300016: chao_sapphire_8
+    21300018: chao_sapphire_9
+    21300020: chao_sapphire_10
+    21300022: chao_sapphire_11
+    21300024: chao_sapphire_12
+    21300026: chao_sapphire_13
+    21300028: chao_sapphire_14
+    21300030: chao_sapphire_15
+    21300032: chao_sapphire_16
+    21300034: chao_sapphire_17
+    21300036: chao_sapphire_18
+    21300038: chao_sapphire_19
+    21300040: chao_sapphire_20
+    21300042: chao_sapphire_21
+    21300044: chao_sapphire_22
+    21300046: chao_sapphire_23
+    21300048: chao_sapphire_24
+    21300050: chao_sapphire_25
+    21300052: chao_sapphire_26
+    21300054: chao_sapphire_27
+    21300056: chao_sapphire_28
+    21300058: chao_sapphire_29
+    21300060: chao_sapphire_30
+    21300062: chao_sapphire_31
+    21300064: chao_sapphire_32
+    21300066: chao_sapphire_33
+    21300068: chao_sapphire_34
+    21300070: chao_sapphire_35
+    21300072: chao_sapphire_36
+    21300074: chao_sapphire_37
+    21300076: chao_sapphire_38
+    21300078: chao_sapphire_39
+    21300080: chao_sapphire_40
+    21300082: chao_sapphire_41
+    21300084: chao_sapphire_42
+    21300086: chao_sapphire_43
+    21300088: chao_sapphire_44
+    21300090: chao_sapphire_45
+    21300092: chao_sapphire_46
+    21300094: chao_sapphire_47
+    21300096: chao_sapphire_48
+    21300098: chao_sapphire_49
+    21300100: chao_sapphire_50
+    21300102: chao_sapphire_51
+    21300104: chao_sapphire_52
+    21300106: chao_sapphire_53
+    21300108: chao_sapphire_54
+    21300110: chao_sapphire_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chao_sapphire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_20
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_23
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_24
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_26
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_27
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_28
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_29
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_31
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_32
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_33
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_34
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_35
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_36
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_37
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_38
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_39
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 4
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_40
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 4
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_41
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 4
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_42
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_43
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_44
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_45
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_46
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_47
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_49
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_50
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_51
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_52
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_53
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_54
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chao_sapphire_55
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
