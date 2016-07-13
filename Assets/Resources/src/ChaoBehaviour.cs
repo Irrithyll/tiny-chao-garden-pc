@@ -17,6 +17,7 @@ public class ChaoBehaviour : MonoBehaviour {
     Garden garden;
     Vector2 walkTarget = new Vector2(-1,-1);
     float walkSpeed = 1f;
+    bool isBeingPet = false;
 
     void Awake()
     {
@@ -56,6 +57,11 @@ public class ChaoBehaviour : MonoBehaviour {
         {
             chao.hatch();
             updateSprite();
+        }
+
+        if (isBeingPet) {
+            anim.PlayAnimation(Animation.Pet);
+            return;
         }
 
         if (Vector2.Distance(transform.position, walkTarget) > walkSpeed*Time.deltaTime) {
@@ -106,10 +112,10 @@ public class ChaoBehaviour : MonoBehaviour {
     }
 
     void OnMouseDown() {
-        anim.PlayAnimation(Animation.Pet);
+        isBeingPet = true;
     }
 
     void OnMouseUp() {
-        anim.PlayAnimation(Animation.Sit);
+        isBeingPet = false;
     }
 }
