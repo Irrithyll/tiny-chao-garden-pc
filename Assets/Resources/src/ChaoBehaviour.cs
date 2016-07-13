@@ -29,15 +29,13 @@ public class ChaoBehaviour : MonoBehaviour {
 
         chao.setTestChao();
 
-        Debug.Log("CHAO NAME : " + chao.name);
-
-        anim.PlayAnimation(Animation.Trumpet);
+//        Debug.Log("CHAO NAME : " + chao.name);
 	}
 	
 	// Update is called once per frame
 	void Update () {
         chao.ageDelta += Time.deltaTime;
-        Debug.Log("Age Delta: " + (chao.ageDelta));
+//        Debug.Log("Age Delta: " + (chao.ageDelta));
 
         if (chao.ageDelta > 60 && chao.isEgg())
         {
@@ -50,10 +48,12 @@ public class ChaoBehaviour : MonoBehaviour {
         if (chao.isEgg())
             return;
 
-        if (chao.colour == Chao.ColourSA2B.Black || chao.texture == Chao.TextureSA2B.BlackJewel)
+        anim.spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
+
+/*        if (chao.colour == Chao.ColourSA2B.Black || chao.texture == Chao.TextureSA2B.BlackJewel)
         {
             //set to onyx sprite
-            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
+            anim.spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
         }else if (chao.colour == Chao.ColourSA2B.Blue || chao.texture == Chao.TextureSA2B.BlueJewel){
             anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
         }
@@ -64,6 +64,14 @@ public class ChaoBehaviour : MonoBehaviour {
         else
         {
             anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
-        }
+        }*/
+    }
+
+    void OnMouseDown() {
+        anim.PlayAnimation(Animation.Pet);
+    }
+
+    void OnMouseUp() {
+        anim.PlayAnimation(Animation.Sit);
     }
 }

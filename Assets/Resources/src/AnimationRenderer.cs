@@ -1,17 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum Animation {
-    None,
-    Sit,
-    Trumpet
+public class Animation {
+    public static Animation Sit = new Animation(new int[] { 3 });
+    public static Animation Trumpet = new Animation(new int[] { 0, 1 });
+    public static Animation Pet = new Animation(new int[] { 6, 7, 8 });
+
+    public int[] frames;
+    public Animation(int[] frames) {
+        this.frames = frames;
+    }
 }
 
 
 public class AnimationRenderer : MonoBehaviour {
-    public Sprite[] frames;
+    public Sprite[] spriteFrames;
     SpriteRenderer spriteRenderer;
-    Animation currAnim = Animation.None;
+    Animation currAnim = Animation.Sit;
     float frameElapsed;
     int frameIndex;
 
@@ -20,32 +25,20 @@ public class AnimationRenderer : MonoBehaviour {
     }
 
 	void Start () {
-        frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_amethyst");
+        spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_amethyst");
         spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 
 	void Update () {
         frameElapsed += Time.deltaTime;
-
-        if (currAnim == Animation.Trumpet)
-        {
-            if (frameElapsed > 1)
-            {
-                if (frameIndex == 0) { frameIndex = 1; }
-                else {frameIndex = 0;}
-                frameElapsed = 0;
-
-            }
-            spriteRenderer.sprite = frames[frameIndex];
-
+        if (frameElapsed > 1) {
+            frameIndex += 1;
+            frameElapsed = 0;
         }
-        else if (currAnim == Animation.Sit)
-        {
-            spriteRenderer.sprite = frames[3];
-        }
-        else
-        {
-            spriteRenderer.sprite = frames[3];
-        }
+
+        if (frameIndex >= currAnim.frames.Length)
+            frameIndex = 0;
+
+        spriteRenderer.sprite = spriteFrames[currAnim.frames[frameIndex]];
 	}
 }
