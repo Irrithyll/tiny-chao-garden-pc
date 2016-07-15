@@ -48,6 +48,12 @@ public class ChaoBehaviour : MonoBehaviour {
         heldItem = item;
         item.gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
+
+    void DropHeldItem()
+    {
+        heldItem.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        heldItem = null;
+    }
 	
 	void Update () {
         chao.ageDelta += Time.deltaTime;
@@ -61,26 +67,38 @@ public class ChaoBehaviour : MonoBehaviour {
 
         if (isBeingPet) {
             anim.PlayAnimation(Animation.Pet);
+            DropHeldItem();
             return;
         }
 
         if (Vector2.Distance(transform.position, walkTarget) > walkSpeed*Time.deltaTime) {
+            //walk towards something
             transform.Translate((walkTarget - (Vector2)transform.position).normalized * walkSpeed * Time.deltaTime);
-            anim.PlayAnimation(Animation.Walk);
-        } else if (anim.currAnim == Animation.Walk) {
+            anim.PlayAnimation(Animation.WalkDown);
+        } else if (anim.currAnim == Animation.WalkDown) {
+            //sit
             transform.position = walkTarget;
             anim.PlayAnimation(Animation.Sit);
         }
 
         if (action == Action.PlayTrumpet) {
+            //find the trumpet
+            var trumpet = GameObject.Find("Trumpet");
+            if (trumpet == null) { 
+                //don't do anything if the trumpet doesn't exist
+                action = Action.Idle; 
+                return; 
+            }
             if (heldItem == null) {                
-                var trumpet = garden.GetComponentInChildren<Trumpet>();
+                //var trumpet = garden.GetComponentInChildren<Trumpet>();
+                
+                //walk towards the trumpet
                 walkTarget = trumpet.transform.position;
-
                 if (Vector2.Distance(transform.position, walkTarget) < walkSpeed*Time.deltaTime) {
                     PickUp(trumpet.GetComponent<Transform>());
                 }
-            } else if (heldItem.GetComponent<Trumpet>()) {
+            } else if (heldItem == trumpet.transform) {
+                //play the trumpet animation
                 anim.PlayAnimation(Animation.Trumpet);
             }
         }
@@ -94,21 +112,6 @@ public class ChaoBehaviour : MonoBehaviour {
 
         anim.spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
 
-/*        if (chao.colour == Chao.ColourSA2B.Black || chao.texture == Chao.TextureSA2B.BlackJewel)
-        {
-            //set to onyx sprite
-            anim.spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
-        }else if (chao.colour == Chao.ColourSA2B.Blue || chao.texture == Chao.TextureSA2B.BlueJewel){
-            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
-        }
-        else if (chao.colour == Chao.ColourSA2B.Red || chao.texture == Chao.TextureSA2B.RedJewel)
-        {
-            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
-        }
-        else
-        {
-            anim.frames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
-        }*/
     }
 
     void OnMouseDown() {
