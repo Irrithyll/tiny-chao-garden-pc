@@ -3,21 +3,39 @@ using System.Collections;
 
 public enum Action {
     Idle,
-    PlayTrumpet
+    PlayTrumpet,
+    Walk,
+    Think,
+    Sleep,
+    Cry,
+    Frown,
+    JumpForJoy,
+    FallDown,
+    ShakeHead,
+    Wave,
+    Eat
 }
 
 public class ChaoBehaviour : MonoBehaviour {
-    public Chao chao;
+
+    public Chao chao; // holds chao data
+
     int frameIndex = 0;
     float frameElapsed = 0;
-    AnimationRenderer anim;
-    public Action action = Action.Idle;
+    AnimationRenderer anim; // controls animations
+
     Transform heldItem = null;
 
-    Garden garden;
+    Garden garden; // has all garden information
     Vector2 walkTarget = new Vector2(-1,-1);
-    float walkSpeed = 1f;
+
+    float walkSpeed = 0.5f; 
     bool isBeingPet = false;
+
+
+    public Action action = Action.Idle; // handles chao's current actions
+    public int actionTimer = 0; // times how long actions last
+    public int maxActionTime = 100; // maximum duration for an action
 
     void Awake()
     {
@@ -66,19 +84,12 @@ public class ChaoBehaviour : MonoBehaviour {
         }
 
         if (isBeingPet) {
+            if (chao.isEgg())
+                return; // handle some condition to age egg faster
+
             anim.PlayAnimation(Animation.Pet);
             DropHeldItem();
             return;
-        }
-
-        if (Vector2.Distance(transform.position, walkTarget) > walkSpeed*Time.deltaTime) {
-            //walk towards something
-            transform.Translate((walkTarget - (Vector2)transform.position).normalized * walkSpeed * Time.deltaTime);
-            anim.PlayAnimation(Animation.WalkDown);
-        } else if (anim.currAnim == Animation.WalkDown) {
-            //sit
-            transform.position = walkTarget;
-            anim.PlayAnimation(Animation.Sit);
         }
 
         if (action == Action.PlayTrumpet) {
@@ -99,12 +110,44 @@ public class ChaoBehaviour : MonoBehaviour {
                 }
             } else if (heldItem == trumpet.transform) {
                 //play the trumpet animation
-                anim.PlayAnimation(Animation.Trumpet);
+                playTrumpet();
+                return;
             }
         }
 
+        if (Vector2.Distance(transform.position, walkTarget) > walkSpeed * Time.deltaTime)
+        {
+            //walk towards something
+            transform.Translate((walkTarget - (Vector2)transform.position).normalized * walkSpeed * Time.deltaTime);
+            anim.PlayAnimation(Animation.WalkDown);
+        }
+        else if (anim.currAnim == Animation.WalkDown)
+        {
+            //sit
+            transform.position = walkTarget;
+            anim.PlayAnimation(Animation.Sit);
+        }
+
         //walkTarget = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-	}
+    }
+
+    void playTrumpet()
+    {
+        anim.PlayAnimation(Animation.Trumpet);
+        updateAction();
+
+    }
+
+    void updateAction()
+    {
+        actionTimer++;
+
+        if(actionTimer >= maxActionTime)
+        {
+            actionTimer = 0;
+            action = Action.Idle;
+        }
+    }
 
     void updateSprite() {
         if (chao.isEgg())

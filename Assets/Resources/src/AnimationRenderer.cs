@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class Animation {
+    public static Animation Stand = new Animation(new int[] { 25 });
+
     public static Animation Sit = new Animation(new int[] { 3 });
     public static Animation Trumpet = new Animation(new int[] { 0, 1 });
     public static Animation Pet = new Animation(new int[] { 6, 7, 8, 7 });
@@ -43,6 +45,11 @@ public class AnimationRenderer : MonoBehaviour {
         currAnim = anim;
     }
 
+    public void StopAnimation()
+    {
+        currAnim = Animation.Stand;
+    }
+
 	void Start () {
         spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_amethyst");
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -50,7 +57,7 @@ public class AnimationRenderer : MonoBehaviour {
 
 	void Update () {
         frameElapsed += Time.deltaTime;
-        if (frameElapsed > 0.1f) {
+        if (frameElapsed > 0.4f) {
             frameIndex += 1;
             frameElapsed = 0;
         }

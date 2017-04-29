@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 84e8f5ea0bf76054ea2b1e57aa08c9fd
-timeCreated: 1468388016
+timeCreated: 1493440137
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,12 +60,12 @@ TextureImporter:
     21300106: chao_amethyst_53
     21300108: chao_amethyst_54
     21300110: chao_amethyst_55
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -77,10 +77,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -91,9 +89,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -101,12 +97,44 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 16
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: chao_amethyst_0
+    - serializedVersion: 2
+      name: chao_amethyst_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,35 +142,25 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 11}
-        - {x: -16, y: 8}
-        - {x: -16, y: -16}
-        - {x: 7, y: -16}
-        - {x: 16, y: -11}
-        - {x: 16, y: 10}
-        - {x: -3, y: 11}
-    - name: chao_amethyst_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 32
+        width: 34
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 11}
-        - {x: -16, y: 9}
-        - {x: -16, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -13}
-        - {x: 16, y: 9}
-        - {x: 7, y: 11}
-    - name: chao_amethyst_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_2
       rect:
         serializedVersion: 2
         x: 64
@@ -150,18 +168,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -3, y: 12}
-        - {x: -13, y: 7}
-        - {x: -13, y: -11}
-        - {x: -8, y: -16}
-        - {x: 8, y: -16}
-        - {x: 12, y: -11}
-        - {x: 12, y: 3}
-    - name: chao_amethyst_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_3
       rect:
         serializedVersion: 2
         x: 96
@@ -169,18 +181,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -3, y: 12}
-        - {x: -13, y: 7}
-        - {x: -13, y: -11}
-        - {x: -8, y: -16}
-        - {x: 8, y: -16}
-        - {x: 12, y: -11}
-        - {x: 12, y: 3}
-    - name: chao_amethyst_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_4
       rect:
         serializedVersion: 2
         x: 128
@@ -188,18 +194,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 8}
-        - {x: -14, y: 2}
-        - {x: -14, y: -12}
-        - {x: -10, y: -16}
-        - {x: 10, y: -16}
-        - {x: 14, y: -13}
-        - {x: 14, y: -1}
-        - {x: 5, y: 8}
-    - name: chao_amethyst_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_5
       rect:
         serializedVersion: 2
         x: 160
@@ -207,18 +207,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 7}
-        - {x: -14, y: 4}
-        - {x: -14, y: -12}
-        - {x: -10, y: -16}
-        - {x: 13, y: -16}
-        - {x: 14, y: -12}
-        - {x: 13, y: -4}
-        - {x: 5, y: 7}
-    - name: chao_amethyst_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_6
       rect:
         serializedVersion: 2
         x: 192
@@ -226,18 +220,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 12}
-        - {x: -13, y: 7}
-        - {x: -13, y: -3}
-        - {x: -10, y: -15}
-        - {x: -9, y: -16}
-        - {x: 10, y: -16}
-        - {x: 10, y: 10}
-        - {x: 3, y: 12}
-    - name: chao_amethyst_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_7
       rect:
         serializedVersion: 2
         x: 224
@@ -245,16 +233,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 12}
-        - {x: -12, y: 11}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 9}
-        - {x: 8, y: 12}
-    - name: chao_amethyst_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_8
       rect:
         serializedVersion: 2
         x: 256
@@ -262,19 +246,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 12}
-        - {x: -5, y: 11}
-        - {x: -11, y: 7}
-        - {x: -11, y: -15}
-        - {x: -9, y: -16}
-        - {x: 9, y: -16}
-        - {x: 12, y: -8}
-        - {x: 12, y: 4}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_9
       rect:
         serializedVersion: 2
         x: 288
@@ -282,17 +259,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 8}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 6}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_10
       rect:
         serializedVersion: 2
         x: 320
@@ -300,17 +272,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 8}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 6}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_11
       rect:
         serializedVersion: 2
         x: 352
@@ -318,17 +285,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 13}
-        - {x: -5, y: 12}
-        - {x: -12, y: 7}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 10}
-        - {x: 6, y: 13}
-    - name: chao_amethyst_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_12
       rect:
         serializedVersion: 2
         x: 384
@@ -336,17 +298,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 13}
-        - {x: -5, y: 12}
-        - {x: -12, y: 7}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 10}
-        - {x: 6, y: 13}
-    - name: chao_amethyst_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_13
       rect:
         serializedVersion: 2
         x: 416
@@ -354,16 +311,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 13}
-        - {x: -12, y: 10}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 10}
-        - {x: 10, y: 13}
-    - name: chao_amethyst_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_14
       rect:
         serializedVersion: 2
         x: 448
@@ -371,16 +324,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 13}
-        - {x: -12, y: 10}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 10}
-        - {x: 10, y: 13}
-    - name: chao_amethyst_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_15
       rect:
         serializedVersion: 2
         x: 480
@@ -388,18 +337,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 12}
-        - {x: -12, y: 9}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 11, y: -13}
-        - {x: 11, y: 7}
-        - {x: 8, y: 12}
-    - name: chao_amethyst_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_16
       rect:
         serializedVersion: 2
         x: 512
@@ -407,18 +350,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 12}
-        - {x: -12, y: 9}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 11, y: -13}
-        - {x: 11, y: 7}
-        - {x: 8, y: 12}
-    - name: chao_amethyst_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_17
       rect:
         serializedVersion: 2
         x: 544
@@ -426,20 +363,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -1, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 5}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 9, y: -14}
-        - {x: 11, y: -3}
-        - {x: 11, y: 5}
-    - name: chao_amethyst_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_18
       rect:
         serializedVersion: 2
         x: 576
@@ -447,20 +376,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -1, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 5}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 9, y: -14}
-        - {x: 11, y: -3}
-        - {x: 11, y: 5}
-    - name: chao_amethyst_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_19
       rect:
         serializedVersion: 2
         x: 608
@@ -468,18 +389,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 13}
-        - {x: -13, y: 8}
-        - {x: -13, y: -11}
-        - {x: -9, y: -16}
-        - {x: 9, y: -16}
-        - {x: 12, y: -11}
-        - {x: 12, y: 6}
-        - {x: 4, y: 13}
-    - name: chao_amethyst_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_20
       rect:
         serializedVersion: 2
         x: 640
@@ -487,16 +402,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 12}
-        - {x: -12, y: 4}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 5}
-        - {x: 9, y: 12}
-    - name: chao_amethyst_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_21
       rect:
         serializedVersion: 2
         x: 672
@@ -504,16 +415,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 13}
-        - {x: -13, y: 11}
-        - {x: -13, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 4}
-        - {x: 9, y: 13}
-    - name: chao_amethyst_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_22
       rect:
         serializedVersion: 2
         x: 704
@@ -521,18 +428,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 13}
-        - {x: -13, y: 9}
-        - {x: -13, y: -10}
-        - {x: -9, y: -16}
-        - {x: 11, y: -16}
-        - {x: 12, y: -12}
-        - {x: 12, y: 10}
-        - {x: 8, y: 13}
-    - name: chao_amethyst_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_23
       rect:
         serializedVersion: 2
         x: 736
@@ -540,18 +441,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 13}
-        - {x: -13, y: 9}
-        - {x: -13, y: -10}
-        - {x: -9, y: -16}
-        - {x: 11, y: -16}
-        - {x: 12, y: -12}
-        - {x: 12, y: 10}
-        - {x: 8, y: 13}
-    - name: chao_amethyst_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_24
       rect:
         serializedVersion: 2
         x: 768
@@ -559,18 +454,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: 12}
-        - {x: -5, y: 11}
-        - {x: -12, y: 6}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 8}
-        - {x: 5, y: 12}
-    - name: chao_amethyst_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_25
       rect:
         serializedVersion: 2
         x: 800
@@ -578,18 +467,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: 12}
-        - {x: -5, y: 11}
-        - {x: -12, y: 6}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 8}
-        - {x: 5, y: 12}
-    - name: chao_amethyst_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_26
       rect:
         serializedVersion: 2
         x: 832
@@ -597,17 +480,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 13}
-        - {x: -13, y: 9}
-        - {x: -13, y: -10}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 5}
-        - {x: 6, y: 13}
-    - name: chao_amethyst_27
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_27
       rect:
         serializedVersion: 2
         x: 864
@@ -615,17 +493,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 13}
-        - {x: -13, y: 9}
-        - {x: -13, y: -10}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 5}
-        - {x: 6, y: 13}
-    - name: chao_amethyst_28
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_28
       rect:
         serializedVersion: 2
         x: 896
@@ -633,17 +506,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: 11}
-        - {x: -6, y: 10}
-        - {x: -12, y: 7}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 5}
-        - {x: 8, y: 11}
-    - name: chao_amethyst_29
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_29
       rect:
         serializedVersion: 2
         x: 928
@@ -651,17 +519,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: 11}
-        - {x: -6, y: 10}
-        - {x: -12, y: 7}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 5}
-        - {x: 8, y: 11}
-    - name: chao_amethyst_30
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_30
       rect:
         serializedVersion: 2
         x: 960
@@ -669,16 +532,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 12}
-        - {x: -12, y: 6}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 9}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_31
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_31
       rect:
         serializedVersion: 2
         x: 992
@@ -686,18 +545,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 11}
-        - {x: -12, y: 7}
-        - {x: -12, y: -13}
-        - {x: -11, y: -15}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 5}
-        - {x: 7, y: 11}
-    - name: chao_amethyst_32
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_32
       rect:
         serializedVersion: 2
         x: 1024
@@ -705,18 +558,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 12}
-        - {x: -12, y: 9}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 11, y: -13}
-        - {x: 11, y: 7}
-        - {x: 8, y: 12}
-    - name: chao_amethyst_33
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_33
       rect:
         serializedVersion: 2
         x: 1056
@@ -724,17 +571,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 12}
-        - {x: -12, y: 9}
-        - {x: -12, y: -16}
-        - {x: 10, y: -16}
-        - {x: 11, y: -13}
-        - {x: 11, y: 5}
-        - {x: 7, y: 12}
-    - name: chao_amethyst_34
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_34
       rect:
         serializedVersion: 2
         x: 1088
@@ -742,17 +584,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 12}
-        - {x: -13, y: 8}
-        - {x: -13, y: -9}
-        - {x: -10, y: -16}
-        - {x: 12, y: -16}
-        - {x: 12, y: 4}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_35
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_35
       rect:
         serializedVersion: 2
         x: 1120
@@ -760,20 +597,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -1, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 5}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 9, y: -14}
-        - {x: 11, y: -3}
-        - {x: 11, y: 5}
-    - name: chao_amethyst_36
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_36
       rect:
         serializedVersion: 2
         x: 1152
@@ -781,16 +610,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 12}
-        - {x: -12, y: 6}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 9}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_37
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_37
       rect:
         serializedVersion: 2
         x: 1184
@@ -798,16 +623,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 12}
-        - {x: -12, y: 6}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 9}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_38
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_38
       rect:
         serializedVersion: 2
         x: 1216
@@ -815,20 +636,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -1, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 5}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 9, y: -14}
-        - {x: 11, y: -3}
-        - {x: 11, y: 5}
-    - name: chao_amethyst_39
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_39
       rect:
         serializedVersion: 2
         x: 1248
@@ -836,20 +649,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 10}
-        - {x: -3, y: 10}
-        - {x: -10, y: 6}
-        - {x: -11, y: 3}
-        - {x: -11, y: -13}
-        - {x: -7, y: -16}
-        - {x: 5, y: -16}
-        - {x: 13, y: -8}
-        - {x: 13, y: 3}
-        - {x: 11, y: 9}
-    - name: chao_amethyst_40
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_40
       rect:
         serializedVersion: 2
         x: 1280
@@ -857,19 +662,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 6}
-        - {x: -2, y: 6}
-        - {x: -9, y: 2}
-        - {x: -12, y: -10}
-        - {x: -12, y: -16}
-        - {x: 13, y: -16}
-        - {x: 14, y: -9}
-        - {x: 14, y: -1}
-        - {x: 10, y: 3}
-    - name: chao_amethyst_41
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_41
       rect:
         serializedVersion: 2
         x: 1312
@@ -877,18 +675,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -4, y: 5}
-        - {x: -11, y: 0}
-        - {x: -14, y: -13}
-        - {x: -14, y: -16}
-        - {x: 10, y: -16}
-        - {x: 13, y: -13}
-        - {x: 13, y: -3}
-        - {x: 9, y: 5}
-    - name: chao_amethyst_42
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_42
       rect:
         serializedVersion: 2
         x: 1344
@@ -896,20 +688,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -1, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 5}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 9, y: -14}
-        - {x: 11, y: -3}
-        - {x: 11, y: 5}
-    - name: chao_amethyst_43
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_43
       rect:
         serializedVersion: 2
         x: 1376
@@ -917,20 +701,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 4, y: 12}
-        - {x: -1, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 5}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 9, y: -14}
-        - {x: 11, y: -3}
-        - {x: 11, y: 5}
-    - name: chao_amethyst_44
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_44
       rect:
         serializedVersion: 2
         x: 1408
@@ -938,17 +714,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 12}
-        - {x: -12, y: 9}
-        - {x: -12, y: -13}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 9}
-        - {x: 10, y: 12}
-    - name: chao_amethyst_45
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_45
       rect:
         serializedVersion: 2
         x: 1440
@@ -956,18 +727,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: 12}
-        - {x: -5, y: 11}
-        - {x: -12, y: 6}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 8}
-        - {x: 5, y: 12}
-    - name: chao_amethyst_46
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_46
       rect:
         serializedVersion: 2
         x: 1472
@@ -975,16 +740,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 12}
-        - {x: -12, y: 5}
-        - {x: -12, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 5}
-        - {x: 9, y: 12}
-    - name: chao_amethyst_47
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_47
       rect:
         serializedVersion: 2
         x: 1504
@@ -992,17 +753,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 13}
-        - {x: -13, y: 9}
-        - {x: -13, y: -16}
-        - {x: 10, y: -16}
-        - {x: 12, y: -11}
-        - {x: 12, y: 10}
-        - {x: 7, y: 13}
-    - name: chao_amethyst_48
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_48
       rect:
         serializedVersion: 2
         x: 1536
@@ -1010,18 +766,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 12}
-        - {x: -13, y: 6}
-        - {x: -13, y: -15}
-        - {x: -10, y: -16}
-        - {x: 10, y: -16}
-        - {x: 12, y: -13}
-        - {x: 12, y: 3}
-        - {x: 6, y: 12}
-    - name: chao_amethyst_49
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_49
       rect:
         serializedVersion: 2
         x: 1568
@@ -1029,18 +779,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 11}
-        - {x: -12, y: 8}
-        - {x: -12, y: -8}
-        - {x: -11, y: -15}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 6}
-        - {x: 3, y: 11}
-    - name: chao_amethyst_50
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_50
       rect:
         serializedVersion: 2
         x: 1600
@@ -1048,19 +792,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 11}
-        - {x: -12, y: 7}
-        - {x: -12, y: -5}
-        - {x: -11, y: -15}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 12, y: -12}
-        - {x: 12, y: 3}
-        - {x: 4, y: 11}
-    - name: chao_amethyst_51
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_51
       rect:
         serializedVersion: 2
         x: 1632
@@ -1068,19 +805,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 12}
-        - {x: -6, y: 11}
-        - {x: -12, y: 5}
-        - {x: -12, y: -9}
-        - {x: -11, y: -15}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 5}
-        - {x: 4, y: 12}
-    - name: chao_amethyst_52
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_52
       rect:
         serializedVersion: 2
         x: 1664
@@ -1088,18 +818,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 12}
-        - {x: -12, y: 5}
-        - {x: -12, y: -4}
-        - {x: -10, y: -14}
-        - {x: -10, y: -16}
-        - {x: 11, y: -16}
-        - {x: 11, y: 4}
-        - {x: 4, y: 12}
-    - name: chao_amethyst_53
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_53
       rect:
         serializedVersion: 2
         x: 1696
@@ -1107,18 +831,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 12}
-        - {x: -12, y: 9}
-        - {x: -12, y: -12}
-        - {x: -9, y: -16}
-        - {x: 7, y: -16}
-        - {x: 11, y: -13}
-        - {x: 11, y: 7}
-        - {x: 8, y: 12}
-    - name: chao_amethyst_54
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_54
       rect:
         serializedVersion: 2
         x: 1728
@@ -1126,18 +844,12 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 12}
-        - {x: -14, y: 5}
-        - {x: -14, y: -14}
-        - {x: -12, y: -16}
-        - {x: 10, y: -16}
-        - {x: 13, y: -13}
-        - {x: 13, y: 3}
-        - {x: 8, y: 12}
-    - name: chao_amethyst_55
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_amethyst_55
       rect:
         serializedVersion: 2
         x: 1760
@@ -1145,17 +857,10 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: 12}
-        - {x: -12, y: 6}
-        - {x: -13, y: 0}
-        - {x: -13, y: -10}
-        - {x: -10, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 9}
-        - {x: 6, y: 12}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
