@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Animation {
-    public static Animation Stand = new Animation(new int[] { 25 });
+    // chao animations
+    public static Animation Idle = new Animation(new int[] { 24 });
 
     public static Animation Sit = new Animation(new int[] { 3 });
     public static Animation Trumpet = new Animation(new int[] { 0, 1 });
@@ -26,6 +27,12 @@ public class Animation {
     public static Animation Wave = new Animation(new int[] { 47, 48 });
     public static Animation Eat = new Animation(new int[] { 49, 50 });
 
+    // chao expression animations
+    public static Animation eNormal = new Animation(new int[] { 4 });
+    public static Animation eHeart = new Animation(new int[] { 2, 3 });
+    public static Animation eHurt = new Animation(new int[] { 0, 1 });
+    public static Animation eQuestion = new Animation(new int[] { 5 });
+    public static Animation eExclaim = new Animation(new int[] { 6 });
 
     public int[] frames;
     public Animation(int[] frames) {
@@ -37,9 +44,9 @@ public class Animation {
 public class AnimationRenderer : MonoBehaviour {
     public Sprite[] spriteFrames;
     public Animation currAnim = Animation.Sit;
-    SpriteRenderer spriteRenderer;
-    float frameElapsed;
-    int frameIndex;
+    public SpriteRenderer spriteRenderer;
+    public float frameElapsed;
+    public int frameIndex;
 
     public void PlayAnimation(Animation anim) {
         currAnim = anim;
@@ -47,11 +54,11 @@ public class AnimationRenderer : MonoBehaviour {
 
     public void StopAnimation()
     {
-        currAnim = Animation.Stand;
+        currAnim = Animation.Idle;
     }
 
 	void Start () {
-        spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_amethyst");
+        spriteFrames = Resources.LoadAll<Sprite>("img/sprites/chao/chao_normal");
         spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 

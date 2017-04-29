@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 31b0de466a30f1d41ac25c0f3b9b0e03
-timeCreated: 1468119216
+timeCreated: 1493447190
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,12 +60,12 @@ TextureImporter:
     21300106: chao_normal_53
     21300108: chao_normal_54
     21300110: chao_normal_55
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -77,10 +77,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -91,9 +89,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -101,627 +97,770 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 16
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: chao_normal_0
+    - serializedVersion: 2
+      name: chao_normal_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
+        y: 0
         width: 32
-        height: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
+        x: 32
+        y: 0
         width: 32
-        height: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_2
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 1
-        width: 21
-        height: 26
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_3
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_3
       rect:
         serializedVersion: 2
-        x: 88
-        y: 1
-        width: 21
-        height: 26
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_4
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_4
       rect:
         serializedVersion: 2
-        x: 110
-        y: 1
-        width: 24
-        height: 22
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_5
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 1
-        width: 24
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_6
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_5
       rect:
         serializedVersion: 2
         x: 160
-        y: 1
-        width: 19
-        height: 26
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_7
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_6
       rect:
         serializedVersion: 2
-        x: 180
-        y: 1
-        width: 19
-        height: 26
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_8
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_7
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1
-        width: 19
-        height: 26
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_9
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_8
       rect:
         serializedVersion: 2
-        x: 220
-        y: 1
-        width: 19
-        height: 26
+        x: 256
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_10
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_9
       rect:
         serializedVersion: 2
-        x: 240
-        y: 1
-        width: 19
-        height: 26
+        x: 288
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_11
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_12
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 1
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_13
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 1
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_14
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_10
       rect:
         serializedVersion: 2
         x: 320
-        y: 1
-        width: 19
-        height: 27
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_15
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_11
       rect:
         serializedVersion: 2
-        x: 340
-        y: 1
-        width: 19
-        height: 26
+        x: 352
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_16
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_12
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1
-        width: 19
-        height: 26
+        x: 384
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_17
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_13
       rect:
         serializedVersion: 2
-        x: 380
-        y: 1
-        width: 19
-        height: 26
+        x: 416
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_18
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_14
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1
-        width: 19
-        height: 26
+        x: 448
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_19
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_15
       rect:
         serializedVersion: 2
-        x: 420
-        y: 1
-        width: 21
-        height: 27
+        x: 480
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_20
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_16
       rect:
         serializedVersion: 2
-        x: 442
-        y: 1
-        width: 19
-        height: 26
+        x: 512
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_21
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_17
       rect:
         serializedVersion: 2
-        x: 462
-        y: 1
-        width: 21
-        height: 27
+        x: 544
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_22
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_18
       rect:
         serializedVersion: 2
-        x: 484
-        y: 1
-        width: 21
-        height: 27
+        x: 576
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_23
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_19
       rect:
         serializedVersion: 2
-        x: 506
-        y: 1
-        width: 21
-        height: 27
+        x: 608
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_24
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_20
       rect:
         serializedVersion: 2
-        x: 528
-        y: 1
-        width: 19
-        height: 26
+        x: 640
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_25
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 1
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_26
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 1
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_27
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 1
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_28
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 1
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_29
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 1
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_30
-      rect:
-        serializedVersion: 2
-        x: 652
-        y: 1
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_31
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_21
       rect:
         serializedVersion: 2
         x: 672
-        y: 1
-        width: 19
-        height: 25
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_32
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_22
       rect:
         serializedVersion: 2
-        x: 692
-        y: 1
-        width: 19
-        height: 26
+        x: 704
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_33
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_23
       rect:
         serializedVersion: 2
-        x: 712
-        y: 1
-        width: 19
-        height: 26
+        x: 736
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_34
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_24
       rect:
         serializedVersion: 2
-        x: 732
-        y: 1
-        width: 21
-        height: 26
+        x: 768
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_35
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_25
       rect:
         serializedVersion: 2
-        x: 754
-        y: 1
-        width: 19
-        height: 26
+        x: 800
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_36
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_26
       rect:
         serializedVersion: 2
-        x: 774
-        y: 1
-        width: 19
-        height: 26
+        x: 832
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_37
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_27
       rect:
         serializedVersion: 2
-        x: 794
-        y: 1
-        width: 19
-        height: 26
+        x: 864
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_38
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_28
       rect:
         serializedVersion: 2
-        x: 814
-        y: 1
-        width: 19
-        height: 26
+        x: 896
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_39
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_29
       rect:
         serializedVersion: 2
-        x: 834
-        y: 4
-        width: 20
-        height: 24
+        x: 928
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_40
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_30
       rect:
         serializedVersion: 2
-        x: 855
-        y: 4
-        width: 22
-        height: 20
+        x: 960
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_41
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_31
       rect:
         serializedVersion: 2
-        x: 878
-        y: 4
-        width: 23
-        height: 19
+        x: 992
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_42
-      rect:
-        serializedVersion: 2
-        x: 902
-        y: 1
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_43
-      rect:
-        serializedVersion: 2
-        x: 922
-        y: 1
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_44
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 1
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_45
-      rect:
-        serializedVersion: 2
-        x: 962
-        y: 1
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_46
-      rect:
-        serializedVersion: 2
-        x: 982
-        y: 1
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_47
-      rect:
-        serializedVersion: 2
-        x: 1002
-        y: 1
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: chao_normal_48
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_32
       rect:
         serializedVersion: 2
         x: 1024
-        y: 1
-        width: 21
-        height: 26
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_49
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_33
       rect:
         serializedVersion: 2
-        x: 1046
-        y: 1
-        width: 19
-        height: 25
+        x: 1056
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_50
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_34
       rect:
         serializedVersion: 2
-        x: 1066
-        y: 1
-        width: 20
-        height: 25
+        x: 1088
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_51
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_35
       rect:
         serializedVersion: 2
-        x: 1087
-        y: 1
-        width: 19
-        height: 26
+        x: 1120
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_52
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_36
       rect:
         serializedVersion: 2
-        x: 1107
-        y: 1
-        width: 19
-        height: 26
+        x: 1152
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_53
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_37
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 1
-        width: 19
-        height: 26
+        x: 1184
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_54
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_38
       rect:
         serializedVersion: 2
-        x: 1147
-        y: 1
-        width: 23
-        height: 26
+        x: 1216
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_normal_55
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_39
       rect:
         serializedVersion: 2
-        x: 1171
-        y: 1
-        width: 22
-        height: 26
+        x: 1248
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_41
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_42
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_43
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_44
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_45
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_46
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_47
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_49
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_50
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_51
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_52
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_54
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chao_normal_55
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

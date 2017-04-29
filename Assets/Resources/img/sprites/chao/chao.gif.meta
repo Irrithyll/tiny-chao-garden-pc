@@ -620,12 +620,12 @@ TextureImporter:
     21301226: chao_613
     21301228: chao_614
     21301230: chao_615
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -637,10 +637,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -651,9 +649,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -661,12 +657,44 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 16
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: chao_0
+    - serializedVersion: 2
+      name: chao_0
       rect:
         serializedVersion: 2
         x: 0
@@ -677,7 +705,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_1
       rect:
         serializedVersion: 2
         x: 33
@@ -688,7 +718,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_2
       rect:
         serializedVersion: 2
         x: 66
@@ -699,7 +731,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_3
       rect:
         serializedVersion: 2
         x: 88
@@ -710,7 +744,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_4
       rect:
         serializedVersion: 2
         x: 110
@@ -721,7 +757,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_5
       rect:
         serializedVersion: 2
         x: 135
@@ -732,7 +770,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_6
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_6
       rect:
         serializedVersion: 2
         x: 160
@@ -743,7 +783,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_7
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_7
       rect:
         serializedVersion: 2
         x: 180
@@ -754,7 +796,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_8
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_8
       rect:
         serializedVersion: 2
         x: 200
@@ -765,7 +809,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_9
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_9
       rect:
         serializedVersion: 2
         x: 220
@@ -776,7 +822,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_10
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_10
       rect:
         serializedVersion: 2
         x: 240
@@ -787,7 +835,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_11
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_11
       rect:
         serializedVersion: 2
         x: 260
@@ -798,7 +848,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_12
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_12
       rect:
         serializedVersion: 2
         x: 280
@@ -809,7 +861,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_13
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_13
       rect:
         serializedVersion: 2
         x: 300
@@ -820,7 +874,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_14
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_14
       rect:
         serializedVersion: 2
         x: 320
@@ -831,7 +887,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_15
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_15
       rect:
         serializedVersion: 2
         x: 340
@@ -842,7 +900,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_16
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_16
       rect:
         serializedVersion: 2
         x: 360
@@ -853,7 +913,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_17
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_17
       rect:
         serializedVersion: 2
         x: 380
@@ -864,7 +926,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_18
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_18
       rect:
         serializedVersion: 2
         x: 400
@@ -875,7 +939,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_19
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_19
       rect:
         serializedVersion: 2
         x: 420
@@ -886,7 +952,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_20
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_20
       rect:
         serializedVersion: 2
         x: 442
@@ -897,7 +965,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_21
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_21
       rect:
         serializedVersion: 2
         x: 462
@@ -908,7 +978,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_22
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_22
       rect:
         serializedVersion: 2
         x: 484
@@ -919,7 +991,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_23
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_23
       rect:
         serializedVersion: 2
         x: 506
@@ -930,7 +1004,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_24
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_24
       rect:
         serializedVersion: 2
         x: 528
@@ -941,7 +1017,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_25
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_25
       rect:
         serializedVersion: 2
         x: 548
@@ -952,7 +1030,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_26
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_26
       rect:
         serializedVersion: 2
         x: 568
@@ -963,7 +1043,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_27
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_27
       rect:
         serializedVersion: 2
         x: 590
@@ -974,7 +1056,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_28
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_28
       rect:
         serializedVersion: 2
         x: 612
@@ -985,7 +1069,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_29
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_29
       rect:
         serializedVersion: 2
         x: 632
@@ -996,7 +1082,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_30
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_30
       rect:
         serializedVersion: 2
         x: 652
@@ -1007,7 +1095,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_31
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_31
       rect:
         serializedVersion: 2
         x: 672
@@ -1018,7 +1108,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_32
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_32
       rect:
         serializedVersion: 2
         x: 692
@@ -1029,7 +1121,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_33
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_33
       rect:
         serializedVersion: 2
         x: 712
@@ -1040,7 +1134,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_34
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_34
       rect:
         serializedVersion: 2
         x: 732
@@ -1051,7 +1147,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_35
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_35
       rect:
         serializedVersion: 2
         x: 754
@@ -1062,7 +1160,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_36
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_36
       rect:
         serializedVersion: 2
         x: 774
@@ -1073,7 +1173,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_37
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_37
       rect:
         serializedVersion: 2
         x: 794
@@ -1084,7 +1186,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_38
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_38
       rect:
         serializedVersion: 2
         x: 814
@@ -1095,7 +1199,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_39
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_39
       rect:
         serializedVersion: 2
         x: 834
@@ -1106,7 +1212,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_40
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_40
       rect:
         serializedVersion: 2
         x: 855
@@ -1117,7 +1225,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_41
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_41
       rect:
         serializedVersion: 2
         x: 878
@@ -1128,7 +1238,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_42
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_42
       rect:
         serializedVersion: 2
         x: 902
@@ -1139,7 +1251,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_43
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_43
       rect:
         serializedVersion: 2
         x: 922
@@ -1150,7 +1264,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_44
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_44
       rect:
         serializedVersion: 2
         x: 942
@@ -1161,7 +1277,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_45
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_45
       rect:
         serializedVersion: 2
         x: 962
@@ -1172,7 +1290,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_46
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_46
       rect:
         serializedVersion: 2
         x: 982
@@ -1183,7 +1303,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_47
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_47
       rect:
         serializedVersion: 2
         x: 1002
@@ -1194,7 +1316,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_48
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_48
       rect:
         serializedVersion: 2
         x: 1024
@@ -1205,7 +1329,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_49
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_49
       rect:
         serializedVersion: 2
         x: 1046
@@ -1216,7 +1342,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_50
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_50
       rect:
         serializedVersion: 2
         x: 1066
@@ -1227,7 +1355,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_51
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_51
       rect:
         serializedVersion: 2
         x: 1087
@@ -1238,7 +1368,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_52
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_52
       rect:
         serializedVersion: 2
         x: 1107
@@ -1249,7 +1381,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_53
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_53
       rect:
         serializedVersion: 2
         x: 1127
@@ -1260,7 +1394,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_54
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_54
       rect:
         serializedVersion: 2
         x: 1147
@@ -1271,7 +1407,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_55
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_55
       rect:
         serializedVersion: 2
         x: 1171
@@ -1282,7 +1420,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_56
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1293,7 +1433,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_57
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_57
       rect:
         serializedVersion: 2
         x: 33
@@ -1304,7 +1446,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_58
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_58
       rect:
         serializedVersion: 2
         x: 66
@@ -1315,7 +1459,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_59
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_59
       rect:
         serializedVersion: 2
         x: 88
@@ -1326,7 +1472,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_60
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_60
       rect:
         serializedVersion: 2
         x: 110
@@ -1337,7 +1485,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_61
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_61
       rect:
         serializedVersion: 2
         x: 135
@@ -1348,7 +1498,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_62
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_62
       rect:
         serializedVersion: 2
         x: 160
@@ -1359,7 +1511,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_63
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_63
       rect:
         serializedVersion: 2
         x: 180
@@ -1370,7 +1524,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_64
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_64
       rect:
         serializedVersion: 2
         x: 200
@@ -1381,7 +1537,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_65
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_65
       rect:
         serializedVersion: 2
         x: 220
@@ -1392,7 +1550,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_66
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_66
       rect:
         serializedVersion: 2
         x: 240
@@ -1403,7 +1563,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_67
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_67
       rect:
         serializedVersion: 2
         x: 260
@@ -1414,7 +1576,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_68
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_68
       rect:
         serializedVersion: 2
         x: 280
@@ -1425,7 +1589,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_69
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_69
       rect:
         serializedVersion: 2
         x: 300
@@ -1436,7 +1602,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_70
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_70
       rect:
         serializedVersion: 2
         x: 320
@@ -1447,7 +1615,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_71
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_71
       rect:
         serializedVersion: 2
         x: 340
@@ -1458,7 +1628,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_72
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_72
       rect:
         serializedVersion: 2
         x: 360
@@ -1469,7 +1641,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_73
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_73
       rect:
         serializedVersion: 2
         x: 380
@@ -1480,7 +1654,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_74
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_74
       rect:
         serializedVersion: 2
         x: 400
@@ -1491,7 +1667,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_75
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_75
       rect:
         serializedVersion: 2
         x: 420
@@ -1502,7 +1680,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_76
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_76
       rect:
         serializedVersion: 2
         x: 442
@@ -1513,7 +1693,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_77
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_77
       rect:
         serializedVersion: 2
         x: 462
@@ -1524,7 +1706,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_78
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_78
       rect:
         serializedVersion: 2
         x: 484
@@ -1535,7 +1719,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_79
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_79
       rect:
         serializedVersion: 2
         x: 506
@@ -1546,7 +1732,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_80
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_80
       rect:
         serializedVersion: 2
         x: 528
@@ -1557,7 +1745,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_81
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_81
       rect:
         serializedVersion: 2
         x: 548
@@ -1568,7 +1758,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_82
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_82
       rect:
         serializedVersion: 2
         x: 568
@@ -1579,7 +1771,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_83
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_83
       rect:
         serializedVersion: 2
         x: 590
@@ -1590,7 +1784,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_84
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_84
       rect:
         serializedVersion: 2
         x: 612
@@ -1601,7 +1797,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_85
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_85
       rect:
         serializedVersion: 2
         x: 632
@@ -1612,7 +1810,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_86
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_86
       rect:
         serializedVersion: 2
         x: 652
@@ -1623,7 +1823,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_87
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_87
       rect:
         serializedVersion: 2
         x: 672
@@ -1634,7 +1836,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_88
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_88
       rect:
         serializedVersion: 2
         x: 692
@@ -1645,7 +1849,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_89
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_89
       rect:
         serializedVersion: 2
         x: 712
@@ -1656,7 +1862,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_90
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_90
       rect:
         serializedVersion: 2
         x: 732
@@ -1667,7 +1875,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_91
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_91
       rect:
         serializedVersion: 2
         x: 754
@@ -1678,7 +1888,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_92
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_92
       rect:
         serializedVersion: 2
         x: 774
@@ -1689,7 +1901,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_93
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_93
       rect:
         serializedVersion: 2
         x: 794
@@ -1700,7 +1914,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_94
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_94
       rect:
         serializedVersion: 2
         x: 814
@@ -1711,7 +1927,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_95
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_95
       rect:
         serializedVersion: 2
         x: 834
@@ -1722,7 +1940,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_96
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_96
       rect:
         serializedVersion: 2
         x: 855
@@ -1733,7 +1953,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_97
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_97
       rect:
         serializedVersion: 2
         x: 878
@@ -1744,7 +1966,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_98
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_98
       rect:
         serializedVersion: 2
         x: 902
@@ -1755,7 +1979,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_99
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_99
       rect:
         serializedVersion: 2
         x: 922
@@ -1766,7 +1992,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_100
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_100
       rect:
         serializedVersion: 2
         x: 942
@@ -1777,7 +2005,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_101
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_101
       rect:
         serializedVersion: 2
         x: 962
@@ -1788,7 +2018,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_102
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_102
       rect:
         serializedVersion: 2
         x: 982
@@ -1799,7 +2031,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_103
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_103
       rect:
         serializedVersion: 2
         x: 1002
@@ -1810,7 +2044,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_104
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_104
       rect:
         serializedVersion: 2
         x: 1024
@@ -1821,7 +2057,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_105
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_105
       rect:
         serializedVersion: 2
         x: 1046
@@ -1832,7 +2070,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_106
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_106
       rect:
         serializedVersion: 2
         x: 1066
@@ -1843,7 +2083,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_107
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_107
       rect:
         serializedVersion: 2
         x: 1087
@@ -1854,7 +2096,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_108
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_108
       rect:
         serializedVersion: 2
         x: 1107
@@ -1865,7 +2109,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_109
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_109
       rect:
         serializedVersion: 2
         x: 1127
@@ -1876,7 +2122,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_110
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_110
       rect:
         serializedVersion: 2
         x: 1147
@@ -1887,7 +2135,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_111
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_111
       rect:
         serializedVersion: 2
         x: 1171
@@ -1898,7 +2148,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_112
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_112
       rect:
         serializedVersion: 2
         x: 0
@@ -1909,7 +2161,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_113
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_113
       rect:
         serializedVersion: 2
         x: 33
@@ -1920,7 +2174,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_114
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_114
       rect:
         serializedVersion: 2
         x: 66
@@ -1931,7 +2187,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_115
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_115
       rect:
         serializedVersion: 2
         x: 88
@@ -1942,7 +2200,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_116
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_116
       rect:
         serializedVersion: 2
         x: 110
@@ -1953,7 +2213,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_117
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_117
       rect:
         serializedVersion: 2
         x: 135
@@ -1964,7 +2226,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_118
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_118
       rect:
         serializedVersion: 2
         x: 160
@@ -1975,7 +2239,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_119
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_119
       rect:
         serializedVersion: 2
         x: 180
@@ -1986,7 +2252,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_120
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_120
       rect:
         serializedVersion: 2
         x: 200
@@ -1997,7 +2265,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_121
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_121
       rect:
         serializedVersion: 2
         x: 220
@@ -2008,7 +2278,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_122
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_122
       rect:
         serializedVersion: 2
         x: 240
@@ -2019,7 +2291,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_123
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_123
       rect:
         serializedVersion: 2
         x: 260
@@ -2030,7 +2304,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_124
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_124
       rect:
         serializedVersion: 2
         x: 280
@@ -2041,7 +2317,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_125
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_125
       rect:
         serializedVersion: 2
         x: 300
@@ -2052,7 +2330,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_126
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_126
       rect:
         serializedVersion: 2
         x: 320
@@ -2063,7 +2343,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_127
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_127
       rect:
         serializedVersion: 2
         x: 340
@@ -2074,7 +2356,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_128
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_128
       rect:
         serializedVersion: 2
         x: 360
@@ -2085,7 +2369,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_129
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_129
       rect:
         serializedVersion: 2
         x: 380
@@ -2096,7 +2382,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_130
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_130
       rect:
         serializedVersion: 2
         x: 400
@@ -2107,7 +2395,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_131
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_131
       rect:
         serializedVersion: 2
         x: 420
@@ -2118,7 +2408,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_132
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_132
       rect:
         serializedVersion: 2
         x: 442
@@ -2129,7 +2421,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_133
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_133
       rect:
         serializedVersion: 2
         x: 462
@@ -2140,7 +2434,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_134
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_134
       rect:
         serializedVersion: 2
         x: 484
@@ -2151,7 +2447,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_135
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_135
       rect:
         serializedVersion: 2
         x: 506
@@ -2162,7 +2460,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_136
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_136
       rect:
         serializedVersion: 2
         x: 528
@@ -2173,7 +2473,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_137
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_137
       rect:
         serializedVersion: 2
         x: 548
@@ -2184,7 +2486,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_138
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_138
       rect:
         serializedVersion: 2
         x: 568
@@ -2195,7 +2499,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_139
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_139
       rect:
         serializedVersion: 2
         x: 590
@@ -2206,7 +2512,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_140
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_140
       rect:
         serializedVersion: 2
         x: 612
@@ -2217,7 +2525,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_141
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_141
       rect:
         serializedVersion: 2
         x: 632
@@ -2228,7 +2538,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_142
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_142
       rect:
         serializedVersion: 2
         x: 652
@@ -2239,7 +2551,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_143
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_143
       rect:
         serializedVersion: 2
         x: 672
@@ -2250,7 +2564,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_144
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_144
       rect:
         serializedVersion: 2
         x: 692
@@ -2261,7 +2577,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_145
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_145
       rect:
         serializedVersion: 2
         x: 712
@@ -2272,7 +2590,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_146
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_146
       rect:
         serializedVersion: 2
         x: 732
@@ -2283,7 +2603,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_147
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_147
       rect:
         serializedVersion: 2
         x: 754
@@ -2294,7 +2616,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_148
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_148
       rect:
         serializedVersion: 2
         x: 774
@@ -2305,7 +2629,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_149
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_149
       rect:
         serializedVersion: 2
         x: 794
@@ -2316,7 +2642,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_150
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_150
       rect:
         serializedVersion: 2
         x: 814
@@ -2327,7 +2655,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_151
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_151
       rect:
         serializedVersion: 2
         x: 834
@@ -2338,7 +2668,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_152
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_152
       rect:
         serializedVersion: 2
         x: 855
@@ -2349,7 +2681,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_153
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_153
       rect:
         serializedVersion: 2
         x: 878
@@ -2360,7 +2694,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_154
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_154
       rect:
         serializedVersion: 2
         x: 902
@@ -2371,7 +2707,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_155
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_155
       rect:
         serializedVersion: 2
         x: 922
@@ -2382,7 +2720,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_156
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_156
       rect:
         serializedVersion: 2
         x: 942
@@ -2393,7 +2733,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_157
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_157
       rect:
         serializedVersion: 2
         x: 962
@@ -2404,7 +2746,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_158
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_158
       rect:
         serializedVersion: 2
         x: 982
@@ -2415,7 +2759,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_159
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_159
       rect:
         serializedVersion: 2
         x: 1002
@@ -2426,7 +2772,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_160
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_160
       rect:
         serializedVersion: 2
         x: 1024
@@ -2437,7 +2785,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_161
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_161
       rect:
         serializedVersion: 2
         x: 1046
@@ -2448,7 +2798,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_162
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_162
       rect:
         serializedVersion: 2
         x: 1066
@@ -2459,7 +2811,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_163
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_163
       rect:
         serializedVersion: 2
         x: 1087
@@ -2470,7 +2824,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_164
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_164
       rect:
         serializedVersion: 2
         x: 1107
@@ -2481,7 +2837,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_165
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_165
       rect:
         serializedVersion: 2
         x: 1127
@@ -2492,7 +2850,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_166
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_166
       rect:
         serializedVersion: 2
         x: 1147
@@ -2503,7 +2863,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_167
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_167
       rect:
         serializedVersion: 2
         x: 1171
@@ -2514,7 +2876,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_168
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_168
       rect:
         serializedVersion: 2
         x: 0
@@ -2525,7 +2889,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_169
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_169
       rect:
         serializedVersion: 2
         x: 33
@@ -2536,7 +2902,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_170
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_170
       rect:
         serializedVersion: 2
         x: 66
@@ -2547,7 +2915,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_171
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_171
       rect:
         serializedVersion: 2
         x: 88
@@ -2558,7 +2928,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_172
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_172
       rect:
         serializedVersion: 2
         x: 110
@@ -2569,7 +2941,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_173
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_173
       rect:
         serializedVersion: 2
         x: 135
@@ -2580,7 +2954,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_174
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_174
       rect:
         serializedVersion: 2
         x: 160
@@ -2591,7 +2967,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_175
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_175
       rect:
         serializedVersion: 2
         x: 180
@@ -2602,7 +2980,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_176
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_176
       rect:
         serializedVersion: 2
         x: 200
@@ -2613,7 +2993,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_177
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_177
       rect:
         serializedVersion: 2
         x: 220
@@ -2624,7 +3006,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_178
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_178
       rect:
         serializedVersion: 2
         x: 240
@@ -2635,7 +3019,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_179
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_179
       rect:
         serializedVersion: 2
         x: 260
@@ -2646,7 +3032,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_180
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_180
       rect:
         serializedVersion: 2
         x: 280
@@ -2657,7 +3045,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_181
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_181
       rect:
         serializedVersion: 2
         x: 300
@@ -2668,7 +3058,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_182
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_182
       rect:
         serializedVersion: 2
         x: 320
@@ -2679,7 +3071,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_183
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_183
       rect:
         serializedVersion: 2
         x: 340
@@ -2690,7 +3084,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_184
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_184
       rect:
         serializedVersion: 2
         x: 360
@@ -2701,7 +3097,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_185
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_185
       rect:
         serializedVersion: 2
         x: 380
@@ -2712,7 +3110,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_186
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_186
       rect:
         serializedVersion: 2
         x: 400
@@ -2723,7 +3123,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_187
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_187
       rect:
         serializedVersion: 2
         x: 420
@@ -2734,7 +3136,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_188
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_188
       rect:
         serializedVersion: 2
         x: 442
@@ -2745,7 +3149,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_189
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_189
       rect:
         serializedVersion: 2
         x: 462
@@ -2756,7 +3162,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_190
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_190
       rect:
         serializedVersion: 2
         x: 484
@@ -2767,7 +3175,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_191
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_191
       rect:
         serializedVersion: 2
         x: 506
@@ -2778,7 +3188,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_192
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_192
       rect:
         serializedVersion: 2
         x: 528
@@ -2789,7 +3201,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_193
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_193
       rect:
         serializedVersion: 2
         x: 548
@@ -2800,7 +3214,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_194
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_194
       rect:
         serializedVersion: 2
         x: 568
@@ -2811,7 +3227,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_195
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_195
       rect:
         serializedVersion: 2
         x: 590
@@ -2822,7 +3240,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_196
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_196
       rect:
         serializedVersion: 2
         x: 612
@@ -2833,7 +3253,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_197
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_197
       rect:
         serializedVersion: 2
         x: 632
@@ -2844,7 +3266,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_198
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_198
       rect:
         serializedVersion: 2
         x: 652
@@ -2855,7 +3279,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_199
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_199
       rect:
         serializedVersion: 2
         x: 672
@@ -2866,7 +3292,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_200
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_200
       rect:
         serializedVersion: 2
         x: 692
@@ -2877,7 +3305,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_201
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_201
       rect:
         serializedVersion: 2
         x: 712
@@ -2888,7 +3318,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_202
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_202
       rect:
         serializedVersion: 2
         x: 732
@@ -2899,7 +3331,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_203
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_203
       rect:
         serializedVersion: 2
         x: 754
@@ -2910,7 +3344,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_204
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_204
       rect:
         serializedVersion: 2
         x: 774
@@ -2921,7 +3357,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_205
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_205
       rect:
         serializedVersion: 2
         x: 794
@@ -2932,7 +3370,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_206
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_206
       rect:
         serializedVersion: 2
         x: 814
@@ -2943,7 +3383,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_207
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_207
       rect:
         serializedVersion: 2
         x: 834
@@ -2954,7 +3396,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_208
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_208
       rect:
         serializedVersion: 2
         x: 855
@@ -2965,7 +3409,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_209
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_209
       rect:
         serializedVersion: 2
         x: 878
@@ -2976,7 +3422,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_210
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_210
       rect:
         serializedVersion: 2
         x: 902
@@ -2987,7 +3435,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_211
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_211
       rect:
         serializedVersion: 2
         x: 922
@@ -2998,7 +3448,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_212
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_212
       rect:
         serializedVersion: 2
         x: 942
@@ -3009,7 +3461,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_213
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_213
       rect:
         serializedVersion: 2
         x: 962
@@ -3020,7 +3474,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_214
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_214
       rect:
         serializedVersion: 2
         x: 982
@@ -3031,7 +3487,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_215
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_215
       rect:
         serializedVersion: 2
         x: 1002
@@ -3042,7 +3500,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_216
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_216
       rect:
         serializedVersion: 2
         x: 1024
@@ -3053,7 +3513,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_217
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_217
       rect:
         serializedVersion: 2
         x: 1046
@@ -3064,7 +3526,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_218
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_218
       rect:
         serializedVersion: 2
         x: 1066
@@ -3075,7 +3539,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_219
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_219
       rect:
         serializedVersion: 2
         x: 1087
@@ -3086,7 +3552,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_220
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_220
       rect:
         serializedVersion: 2
         x: 1107
@@ -3097,7 +3565,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_221
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_221
       rect:
         serializedVersion: 2
         x: 1127
@@ -3108,7 +3578,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_222
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_222
       rect:
         serializedVersion: 2
         x: 1147
@@ -3119,7 +3591,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_223
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_223
       rect:
         serializedVersion: 2
         x: 1171
@@ -3130,7 +3604,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_224
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_224
       rect:
         serializedVersion: 2
         x: 0
@@ -3141,7 +3617,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_225
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_225
       rect:
         serializedVersion: 2
         x: 33
@@ -3152,7 +3630,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_226
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_226
       rect:
         serializedVersion: 2
         x: 66
@@ -3163,7 +3643,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_227
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_227
       rect:
         serializedVersion: 2
         x: 88
@@ -3174,7 +3656,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_228
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_228
       rect:
         serializedVersion: 2
         x: 110
@@ -3185,7 +3669,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_229
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_229
       rect:
         serializedVersion: 2
         x: 135
@@ -3196,7 +3682,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_230
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_230
       rect:
         serializedVersion: 2
         x: 160
@@ -3207,7 +3695,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_231
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_231
       rect:
         serializedVersion: 2
         x: 180
@@ -3218,7 +3708,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_232
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_232
       rect:
         serializedVersion: 2
         x: 200
@@ -3229,7 +3721,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_233
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_233
       rect:
         serializedVersion: 2
         x: 220
@@ -3240,7 +3734,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_234
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_234
       rect:
         serializedVersion: 2
         x: 240
@@ -3251,7 +3747,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_235
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_235
       rect:
         serializedVersion: 2
         x: 260
@@ -3262,7 +3760,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_236
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_236
       rect:
         serializedVersion: 2
         x: 280
@@ -3273,7 +3773,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_237
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_237
       rect:
         serializedVersion: 2
         x: 300
@@ -3284,7 +3786,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_238
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_238
       rect:
         serializedVersion: 2
         x: 320
@@ -3295,7 +3799,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_239
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_239
       rect:
         serializedVersion: 2
         x: 340
@@ -3306,7 +3812,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_240
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_240
       rect:
         serializedVersion: 2
         x: 360
@@ -3317,7 +3825,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_241
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_241
       rect:
         serializedVersion: 2
         x: 380
@@ -3328,7 +3838,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_242
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_242
       rect:
         serializedVersion: 2
         x: 400
@@ -3339,7 +3851,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_243
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_243
       rect:
         serializedVersion: 2
         x: 420
@@ -3350,7 +3864,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_244
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_244
       rect:
         serializedVersion: 2
         x: 442
@@ -3361,7 +3877,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_245
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_245
       rect:
         serializedVersion: 2
         x: 462
@@ -3372,7 +3890,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_246
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_246
       rect:
         serializedVersion: 2
         x: 484
@@ -3383,7 +3903,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_247
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_247
       rect:
         serializedVersion: 2
         x: 506
@@ -3394,7 +3916,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_248
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_248
       rect:
         serializedVersion: 2
         x: 528
@@ -3405,7 +3929,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_249
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_249
       rect:
         serializedVersion: 2
         x: 548
@@ -3416,7 +3942,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_250
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_250
       rect:
         serializedVersion: 2
         x: 568
@@ -3427,7 +3955,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_251
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_251
       rect:
         serializedVersion: 2
         x: 590
@@ -3438,7 +3968,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_252
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_252
       rect:
         serializedVersion: 2
         x: 612
@@ -3449,7 +3981,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_253
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_253
       rect:
         serializedVersion: 2
         x: 632
@@ -3460,7 +3994,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_254
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_254
       rect:
         serializedVersion: 2
         x: 652
@@ -3471,7 +4007,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_255
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_255
       rect:
         serializedVersion: 2
         x: 672
@@ -3482,7 +4020,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_256
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_256
       rect:
         serializedVersion: 2
         x: 692
@@ -3493,7 +4033,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_257
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_257
       rect:
         serializedVersion: 2
         x: 712
@@ -3504,7 +4046,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_258
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_258
       rect:
         serializedVersion: 2
         x: 732
@@ -3515,7 +4059,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_259
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_259
       rect:
         serializedVersion: 2
         x: 754
@@ -3526,7 +4072,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_260
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_260
       rect:
         serializedVersion: 2
         x: 774
@@ -3537,7 +4085,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_261
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_261
       rect:
         serializedVersion: 2
         x: 794
@@ -3548,7 +4098,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_262
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_262
       rect:
         serializedVersion: 2
         x: 814
@@ -3559,7 +4111,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_263
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_263
       rect:
         serializedVersion: 2
         x: 834
@@ -3570,7 +4124,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_264
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_264
       rect:
         serializedVersion: 2
         x: 855
@@ -3581,7 +4137,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_265
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_265
       rect:
         serializedVersion: 2
         x: 878
@@ -3592,7 +4150,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_266
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_266
       rect:
         serializedVersion: 2
         x: 902
@@ -3603,7 +4163,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_267
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_267
       rect:
         serializedVersion: 2
         x: 922
@@ -3614,7 +4176,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_268
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_268
       rect:
         serializedVersion: 2
         x: 942
@@ -3625,7 +4189,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_269
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_269
       rect:
         serializedVersion: 2
         x: 962
@@ -3636,7 +4202,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_270
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_270
       rect:
         serializedVersion: 2
         x: 982
@@ -3647,7 +4215,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_271
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_271
       rect:
         serializedVersion: 2
         x: 1002
@@ -3658,7 +4228,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_272
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_272
       rect:
         serializedVersion: 2
         x: 1024
@@ -3669,7 +4241,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_273
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_273
       rect:
         serializedVersion: 2
         x: 1046
@@ -3680,7 +4254,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_274
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_274
       rect:
         serializedVersion: 2
         x: 1066
@@ -3691,7 +4267,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_275
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_275
       rect:
         serializedVersion: 2
         x: 1087
@@ -3702,7 +4280,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_276
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_276
       rect:
         serializedVersion: 2
         x: 1107
@@ -3713,7 +4293,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_277
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_277
       rect:
         serializedVersion: 2
         x: 1127
@@ -3724,7 +4306,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_278
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_278
       rect:
         serializedVersion: 2
         x: 1147
@@ -3735,7 +4319,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_279
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_279
       rect:
         serializedVersion: 2
         x: 1171
@@ -3746,7 +4332,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_280
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_280
       rect:
         serializedVersion: 2
         x: 0
@@ -3757,7 +4345,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_281
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_281
       rect:
         serializedVersion: 2
         x: 33
@@ -3768,7 +4358,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_282
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_282
       rect:
         serializedVersion: 2
         x: 66
@@ -3779,7 +4371,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_283
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_283
       rect:
         serializedVersion: 2
         x: 88
@@ -3790,7 +4384,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_284
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_284
       rect:
         serializedVersion: 2
         x: 110
@@ -3801,7 +4397,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_285
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_285
       rect:
         serializedVersion: 2
         x: 135
@@ -3812,7 +4410,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_286
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_286
       rect:
         serializedVersion: 2
         x: 160
@@ -3823,7 +4423,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_287
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_287
       rect:
         serializedVersion: 2
         x: 180
@@ -3834,7 +4436,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_288
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_288
       rect:
         serializedVersion: 2
         x: 200
@@ -3845,7 +4449,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_289
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_289
       rect:
         serializedVersion: 2
         x: 220
@@ -3856,7 +4462,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_290
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_290
       rect:
         serializedVersion: 2
         x: 240
@@ -3867,7 +4475,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_291
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_291
       rect:
         serializedVersion: 2
         x: 260
@@ -3878,7 +4488,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_292
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_292
       rect:
         serializedVersion: 2
         x: 280
@@ -3889,7 +4501,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_293
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_293
       rect:
         serializedVersion: 2
         x: 300
@@ -3900,7 +4514,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_294
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_294
       rect:
         serializedVersion: 2
         x: 320
@@ -3911,7 +4527,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_295
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_295
       rect:
         serializedVersion: 2
         x: 340
@@ -3922,7 +4540,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_296
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_296
       rect:
         serializedVersion: 2
         x: 360
@@ -3933,7 +4553,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_297
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_297
       rect:
         serializedVersion: 2
         x: 380
@@ -3944,7 +4566,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_298
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_298
       rect:
         serializedVersion: 2
         x: 400
@@ -3955,7 +4579,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_299
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_299
       rect:
         serializedVersion: 2
         x: 420
@@ -3966,7 +4592,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_300
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_300
       rect:
         serializedVersion: 2
         x: 442
@@ -3977,7 +4605,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_301
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_301
       rect:
         serializedVersion: 2
         x: 462
@@ -3988,7 +4618,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_302
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_302
       rect:
         serializedVersion: 2
         x: 484
@@ -3999,7 +4631,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_303
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_303
       rect:
         serializedVersion: 2
         x: 506
@@ -4010,7 +4644,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_304
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_304
       rect:
         serializedVersion: 2
         x: 528
@@ -4021,7 +4657,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_305
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_305
       rect:
         serializedVersion: 2
         x: 548
@@ -4032,7 +4670,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_306
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_306
       rect:
         serializedVersion: 2
         x: 568
@@ -4043,7 +4683,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_307
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_307
       rect:
         serializedVersion: 2
         x: 590
@@ -4054,7 +4696,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_308
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_308
       rect:
         serializedVersion: 2
         x: 612
@@ -4065,7 +4709,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_309
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_309
       rect:
         serializedVersion: 2
         x: 632
@@ -4076,7 +4722,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_310
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_310
       rect:
         serializedVersion: 2
         x: 652
@@ -4087,7 +4735,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_311
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_311
       rect:
         serializedVersion: 2
         x: 672
@@ -4098,7 +4748,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_312
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_312
       rect:
         serializedVersion: 2
         x: 692
@@ -4109,7 +4761,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_313
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_313
       rect:
         serializedVersion: 2
         x: 712
@@ -4120,7 +4774,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_314
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_314
       rect:
         serializedVersion: 2
         x: 732
@@ -4131,7 +4787,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_315
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_315
       rect:
         serializedVersion: 2
         x: 754
@@ -4142,7 +4800,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_316
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_316
       rect:
         serializedVersion: 2
         x: 774
@@ -4153,7 +4813,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_317
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_317
       rect:
         serializedVersion: 2
         x: 794
@@ -4164,7 +4826,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_318
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_318
       rect:
         serializedVersion: 2
         x: 814
@@ -4175,7 +4839,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_319
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_319
       rect:
         serializedVersion: 2
         x: 834
@@ -4186,7 +4852,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_320
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_320
       rect:
         serializedVersion: 2
         x: 855
@@ -4197,7 +4865,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_321
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_321
       rect:
         serializedVersion: 2
         x: 878
@@ -4208,7 +4878,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_322
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_322
       rect:
         serializedVersion: 2
         x: 902
@@ -4219,7 +4891,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_323
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_323
       rect:
         serializedVersion: 2
         x: 922
@@ -4230,7 +4904,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_324
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_324
       rect:
         serializedVersion: 2
         x: 942
@@ -4241,7 +4917,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_325
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_325
       rect:
         serializedVersion: 2
         x: 962
@@ -4252,7 +4930,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_326
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_326
       rect:
         serializedVersion: 2
         x: 982
@@ -4263,7 +4943,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_327
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_327
       rect:
         serializedVersion: 2
         x: 1002
@@ -4274,7 +4956,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_328
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_328
       rect:
         serializedVersion: 2
         x: 1024
@@ -4285,7 +4969,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_329
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_329
       rect:
         serializedVersion: 2
         x: 1046
@@ -4296,7 +4982,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_330
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_330
       rect:
         serializedVersion: 2
         x: 1066
@@ -4307,7 +4995,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_331
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_331
       rect:
         serializedVersion: 2
         x: 1087
@@ -4318,7 +5008,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_332
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_332
       rect:
         serializedVersion: 2
         x: 1107
@@ -4329,7 +5021,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_333
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_333
       rect:
         serializedVersion: 2
         x: 1127
@@ -4340,7 +5034,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_334
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_334
       rect:
         serializedVersion: 2
         x: 1147
@@ -4351,7 +5047,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_335
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_335
       rect:
         serializedVersion: 2
         x: 1171
@@ -4362,7 +5060,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_336
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_336
       rect:
         serializedVersion: 2
         x: 0
@@ -4373,7 +5073,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_337
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_337
       rect:
         serializedVersion: 2
         x: 33
@@ -4384,7 +5086,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_338
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_338
       rect:
         serializedVersion: 2
         x: 66
@@ -4395,7 +5099,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_339
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_339
       rect:
         serializedVersion: 2
         x: 88
@@ -4406,7 +5112,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_340
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_340
       rect:
         serializedVersion: 2
         x: 110
@@ -4417,7 +5125,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_341
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_341
       rect:
         serializedVersion: 2
         x: 135
@@ -4428,7 +5138,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_342
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_342
       rect:
         serializedVersion: 2
         x: 160
@@ -4439,7 +5151,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_343
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_343
       rect:
         serializedVersion: 2
         x: 180
@@ -4450,7 +5164,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_344
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_344
       rect:
         serializedVersion: 2
         x: 200
@@ -4461,7 +5177,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_345
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_345
       rect:
         serializedVersion: 2
         x: 220
@@ -4472,7 +5190,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_346
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_346
       rect:
         serializedVersion: 2
         x: 240
@@ -4483,7 +5203,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_347
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_347
       rect:
         serializedVersion: 2
         x: 260
@@ -4494,7 +5216,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_348
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_348
       rect:
         serializedVersion: 2
         x: 280
@@ -4505,7 +5229,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_349
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_349
       rect:
         serializedVersion: 2
         x: 300
@@ -4516,7 +5242,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_350
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_350
       rect:
         serializedVersion: 2
         x: 320
@@ -4527,7 +5255,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_351
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_351
       rect:
         serializedVersion: 2
         x: 340
@@ -4538,7 +5268,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_352
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_352
       rect:
         serializedVersion: 2
         x: 360
@@ -4549,7 +5281,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_353
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_353
       rect:
         serializedVersion: 2
         x: 380
@@ -4560,7 +5294,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_354
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_354
       rect:
         serializedVersion: 2
         x: 400
@@ -4571,7 +5307,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_355
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_355
       rect:
         serializedVersion: 2
         x: 420
@@ -4582,7 +5320,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_356
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_356
       rect:
         serializedVersion: 2
         x: 442
@@ -4593,7 +5333,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_357
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_357
       rect:
         serializedVersion: 2
         x: 462
@@ -4604,7 +5346,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_358
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_358
       rect:
         serializedVersion: 2
         x: 484
@@ -4615,7 +5359,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_359
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_359
       rect:
         serializedVersion: 2
         x: 506
@@ -4626,7 +5372,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_360
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_360
       rect:
         serializedVersion: 2
         x: 528
@@ -4637,7 +5385,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_361
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_361
       rect:
         serializedVersion: 2
         x: 548
@@ -4648,7 +5398,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_362
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_362
       rect:
         serializedVersion: 2
         x: 568
@@ -4659,7 +5411,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_363
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_363
       rect:
         serializedVersion: 2
         x: 590
@@ -4670,7 +5424,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_364
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_364
       rect:
         serializedVersion: 2
         x: 612
@@ -4681,7 +5437,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_365
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_365
       rect:
         serializedVersion: 2
         x: 632
@@ -4692,7 +5450,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_366
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_366
       rect:
         serializedVersion: 2
         x: 652
@@ -4703,7 +5463,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_367
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_367
       rect:
         serializedVersion: 2
         x: 672
@@ -4714,7 +5476,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_368
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_368
       rect:
         serializedVersion: 2
         x: 692
@@ -4725,7 +5489,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_369
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_369
       rect:
         serializedVersion: 2
         x: 712
@@ -4736,7 +5502,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_370
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_370
       rect:
         serializedVersion: 2
         x: 732
@@ -4747,7 +5515,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_371
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_371
       rect:
         serializedVersion: 2
         x: 754
@@ -4758,7 +5528,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_372
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_372
       rect:
         serializedVersion: 2
         x: 774
@@ -4769,7 +5541,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_373
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_373
       rect:
         serializedVersion: 2
         x: 794
@@ -4780,7 +5554,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_374
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_374
       rect:
         serializedVersion: 2
         x: 814
@@ -4791,7 +5567,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_375
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_375
       rect:
         serializedVersion: 2
         x: 834
@@ -4802,7 +5580,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_376
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_376
       rect:
         serializedVersion: 2
         x: 855
@@ -4813,7 +5593,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_377
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_377
       rect:
         serializedVersion: 2
         x: 878
@@ -4824,7 +5606,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_378
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_378
       rect:
         serializedVersion: 2
         x: 902
@@ -4835,7 +5619,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_379
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_379
       rect:
         serializedVersion: 2
         x: 922
@@ -4846,7 +5632,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_380
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_380
       rect:
         serializedVersion: 2
         x: 942
@@ -4857,7 +5645,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_381
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_381
       rect:
         serializedVersion: 2
         x: 962
@@ -4868,7 +5658,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_382
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_382
       rect:
         serializedVersion: 2
         x: 982
@@ -4879,7 +5671,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_383
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_383
       rect:
         serializedVersion: 2
         x: 1002
@@ -4890,7 +5684,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_384
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_384
       rect:
         serializedVersion: 2
         x: 1024
@@ -4901,7 +5697,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_385
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_385
       rect:
         serializedVersion: 2
         x: 1046
@@ -4912,7 +5710,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_386
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_386
       rect:
         serializedVersion: 2
         x: 1066
@@ -4923,7 +5723,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_387
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_387
       rect:
         serializedVersion: 2
         x: 1087
@@ -4934,7 +5736,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_388
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_388
       rect:
         serializedVersion: 2
         x: 1107
@@ -4945,7 +5749,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_389
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_389
       rect:
         serializedVersion: 2
         x: 1127
@@ -4956,7 +5762,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_390
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_390
       rect:
         serializedVersion: 2
         x: 1147
@@ -4967,7 +5775,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_391
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_391
       rect:
         serializedVersion: 2
         x: 1171
@@ -4978,7 +5788,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_392
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_392
       rect:
         serializedVersion: 2
         x: 0
@@ -4989,7 +5801,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_393
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_393
       rect:
         serializedVersion: 2
         x: 33
@@ -5000,7 +5814,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_394
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_394
       rect:
         serializedVersion: 2
         x: 66
@@ -5011,7 +5827,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_395
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_395
       rect:
         serializedVersion: 2
         x: 88
@@ -5022,7 +5840,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_396
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_396
       rect:
         serializedVersion: 2
         x: 110
@@ -5033,7 +5853,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_397
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_397
       rect:
         serializedVersion: 2
         x: 135
@@ -5044,7 +5866,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_398
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_398
       rect:
         serializedVersion: 2
         x: 160
@@ -5055,7 +5879,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_399
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_399
       rect:
         serializedVersion: 2
         x: 180
@@ -5066,7 +5892,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_400
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_400
       rect:
         serializedVersion: 2
         x: 200
@@ -5077,7 +5905,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_401
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_401
       rect:
         serializedVersion: 2
         x: 220
@@ -5088,7 +5918,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_402
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_402
       rect:
         serializedVersion: 2
         x: 240
@@ -5099,7 +5931,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_403
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_403
       rect:
         serializedVersion: 2
         x: 260
@@ -5110,7 +5944,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_404
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_404
       rect:
         serializedVersion: 2
         x: 280
@@ -5121,7 +5957,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_405
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_405
       rect:
         serializedVersion: 2
         x: 300
@@ -5132,7 +5970,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_406
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_406
       rect:
         serializedVersion: 2
         x: 320
@@ -5143,7 +5983,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_407
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_407
       rect:
         serializedVersion: 2
         x: 340
@@ -5154,7 +5996,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_408
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_408
       rect:
         serializedVersion: 2
         x: 360
@@ -5165,7 +6009,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_409
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_409
       rect:
         serializedVersion: 2
         x: 380
@@ -5176,7 +6022,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_410
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_410
       rect:
         serializedVersion: 2
         x: 400
@@ -5187,7 +6035,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_411
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_411
       rect:
         serializedVersion: 2
         x: 420
@@ -5198,7 +6048,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_412
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_412
       rect:
         serializedVersion: 2
         x: 442
@@ -5209,7 +6061,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_413
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_413
       rect:
         serializedVersion: 2
         x: 462
@@ -5220,7 +6074,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_414
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_414
       rect:
         serializedVersion: 2
         x: 484
@@ -5231,7 +6087,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_415
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_415
       rect:
         serializedVersion: 2
         x: 506
@@ -5242,7 +6100,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_416
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_416
       rect:
         serializedVersion: 2
         x: 528
@@ -5253,7 +6113,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_417
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_417
       rect:
         serializedVersion: 2
         x: 548
@@ -5264,7 +6126,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_418
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_418
       rect:
         serializedVersion: 2
         x: 568
@@ -5275,7 +6139,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_419
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_419
       rect:
         serializedVersion: 2
         x: 590
@@ -5286,7 +6152,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_420
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_420
       rect:
         serializedVersion: 2
         x: 612
@@ -5297,7 +6165,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_421
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_421
       rect:
         serializedVersion: 2
         x: 632
@@ -5308,7 +6178,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_422
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_422
       rect:
         serializedVersion: 2
         x: 652
@@ -5319,7 +6191,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_423
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_423
       rect:
         serializedVersion: 2
         x: 672
@@ -5330,7 +6204,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_424
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_424
       rect:
         serializedVersion: 2
         x: 692
@@ -5341,7 +6217,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_425
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_425
       rect:
         serializedVersion: 2
         x: 712
@@ -5352,7 +6230,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_426
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_426
       rect:
         serializedVersion: 2
         x: 732
@@ -5363,7 +6243,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_427
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_427
       rect:
         serializedVersion: 2
         x: 754
@@ -5374,7 +6256,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_428
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_428
       rect:
         serializedVersion: 2
         x: 774
@@ -5385,7 +6269,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_429
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_429
       rect:
         serializedVersion: 2
         x: 794
@@ -5396,7 +6282,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_430
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_430
       rect:
         serializedVersion: 2
         x: 814
@@ -5407,7 +6295,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_431
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_431
       rect:
         serializedVersion: 2
         x: 834
@@ -5418,7 +6308,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_432
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_432
       rect:
         serializedVersion: 2
         x: 855
@@ -5429,7 +6321,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_433
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_433
       rect:
         serializedVersion: 2
         x: 878
@@ -5440,7 +6334,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_434
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_434
       rect:
         serializedVersion: 2
         x: 902
@@ -5451,7 +6347,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_435
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_435
       rect:
         serializedVersion: 2
         x: 922
@@ -5462,7 +6360,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_436
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_436
       rect:
         serializedVersion: 2
         x: 942
@@ -5473,7 +6373,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_437
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_437
       rect:
         serializedVersion: 2
         x: 962
@@ -5484,7 +6386,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_438
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_438
       rect:
         serializedVersion: 2
         x: 982
@@ -5495,7 +6399,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_439
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_439
       rect:
         serializedVersion: 2
         x: 1002
@@ -5506,7 +6412,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_440
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_440
       rect:
         serializedVersion: 2
         x: 1024
@@ -5517,7 +6425,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_441
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_441
       rect:
         serializedVersion: 2
         x: 1046
@@ -5528,7 +6438,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_442
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_442
       rect:
         serializedVersion: 2
         x: 1066
@@ -5539,7 +6451,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_443
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_443
       rect:
         serializedVersion: 2
         x: 1087
@@ -5550,7 +6464,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_444
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_444
       rect:
         serializedVersion: 2
         x: 1107
@@ -5561,7 +6477,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_445
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_445
       rect:
         serializedVersion: 2
         x: 1127
@@ -5572,7 +6490,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_446
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_446
       rect:
         serializedVersion: 2
         x: 1147
@@ -5583,7 +6503,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_447
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_447
       rect:
         serializedVersion: 2
         x: 1171
@@ -5594,7 +6516,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_448
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_448
       rect:
         serializedVersion: 2
         x: 0
@@ -5605,7 +6529,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_449
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_449
       rect:
         serializedVersion: 2
         x: 33
@@ -5616,7 +6542,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_450
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_450
       rect:
         serializedVersion: 2
         x: 66
@@ -5627,7 +6555,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_451
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_451
       rect:
         serializedVersion: 2
         x: 88
@@ -5638,7 +6568,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_452
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_452
       rect:
         serializedVersion: 2
         x: 110
@@ -5649,7 +6581,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_453
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_453
       rect:
         serializedVersion: 2
         x: 135
@@ -5660,7 +6594,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_454
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_454
       rect:
         serializedVersion: 2
         x: 160
@@ -5671,7 +6607,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_455
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_455
       rect:
         serializedVersion: 2
         x: 180
@@ -5682,7 +6620,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_456
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_456
       rect:
         serializedVersion: 2
         x: 200
@@ -5693,7 +6633,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_457
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_457
       rect:
         serializedVersion: 2
         x: 220
@@ -5704,7 +6646,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_458
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_458
       rect:
         serializedVersion: 2
         x: 240
@@ -5715,7 +6659,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_459
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_459
       rect:
         serializedVersion: 2
         x: 260
@@ -5726,7 +6672,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_460
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_460
       rect:
         serializedVersion: 2
         x: 280
@@ -5737,7 +6685,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_461
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_461
       rect:
         serializedVersion: 2
         x: 300
@@ -5748,7 +6698,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_462
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_462
       rect:
         serializedVersion: 2
         x: 320
@@ -5759,7 +6711,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_463
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_463
       rect:
         serializedVersion: 2
         x: 340
@@ -5770,7 +6724,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_464
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_464
       rect:
         serializedVersion: 2
         x: 360
@@ -5781,7 +6737,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_465
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_465
       rect:
         serializedVersion: 2
         x: 380
@@ -5792,7 +6750,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_466
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_466
       rect:
         serializedVersion: 2
         x: 400
@@ -5803,7 +6763,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_467
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_467
       rect:
         serializedVersion: 2
         x: 420
@@ -5814,7 +6776,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_468
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_468
       rect:
         serializedVersion: 2
         x: 442
@@ -5825,7 +6789,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_469
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_469
       rect:
         serializedVersion: 2
         x: 462
@@ -5836,7 +6802,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_470
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_470
       rect:
         serializedVersion: 2
         x: 484
@@ -5847,7 +6815,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_471
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_471
       rect:
         serializedVersion: 2
         x: 506
@@ -5858,7 +6828,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_472
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_472
       rect:
         serializedVersion: 2
         x: 528
@@ -5869,7 +6841,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_473
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_473
       rect:
         serializedVersion: 2
         x: 548
@@ -5880,7 +6854,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_474
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_474
       rect:
         serializedVersion: 2
         x: 568
@@ -5891,7 +6867,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_475
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_475
       rect:
         serializedVersion: 2
         x: 590
@@ -5902,7 +6880,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_476
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_476
       rect:
         serializedVersion: 2
         x: 612
@@ -5913,7 +6893,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_477
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_477
       rect:
         serializedVersion: 2
         x: 632
@@ -5924,7 +6906,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_478
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_478
       rect:
         serializedVersion: 2
         x: 652
@@ -5935,7 +6919,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_479
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_479
       rect:
         serializedVersion: 2
         x: 672
@@ -5946,7 +6932,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_480
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_480
       rect:
         serializedVersion: 2
         x: 692
@@ -5957,7 +6945,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_481
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_481
       rect:
         serializedVersion: 2
         x: 712
@@ -5968,7 +6958,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_482
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_482
       rect:
         serializedVersion: 2
         x: 732
@@ -5979,7 +6971,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_483
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_483
       rect:
         serializedVersion: 2
         x: 754
@@ -5990,7 +6984,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_484
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_484
       rect:
         serializedVersion: 2
         x: 774
@@ -6001,7 +6997,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_485
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_485
       rect:
         serializedVersion: 2
         x: 794
@@ -6012,7 +7010,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_486
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_486
       rect:
         serializedVersion: 2
         x: 814
@@ -6023,7 +7023,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_487
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_487
       rect:
         serializedVersion: 2
         x: 834
@@ -6034,7 +7036,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_488
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_488
       rect:
         serializedVersion: 2
         x: 855
@@ -6045,7 +7049,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_489
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_489
       rect:
         serializedVersion: 2
         x: 878
@@ -6056,7 +7062,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_490
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_490
       rect:
         serializedVersion: 2
         x: 902
@@ -6067,7 +7075,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_491
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_491
       rect:
         serializedVersion: 2
         x: 922
@@ -6078,7 +7088,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_492
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_492
       rect:
         serializedVersion: 2
         x: 942
@@ -6089,7 +7101,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_493
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_493
       rect:
         serializedVersion: 2
         x: 962
@@ -6100,7 +7114,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_494
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_494
       rect:
         serializedVersion: 2
         x: 982
@@ -6111,7 +7127,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_495
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_495
       rect:
         serializedVersion: 2
         x: 1002
@@ -6122,7 +7140,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_496
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_496
       rect:
         serializedVersion: 2
         x: 1024
@@ -6133,7 +7153,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_497
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_497
       rect:
         serializedVersion: 2
         x: 1046
@@ -6144,7 +7166,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_498
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_498
       rect:
         serializedVersion: 2
         x: 1066
@@ -6155,7 +7179,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_499
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_499
       rect:
         serializedVersion: 2
         x: 1087
@@ -6166,7 +7192,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_500
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_500
       rect:
         serializedVersion: 2
         x: 1107
@@ -6177,7 +7205,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_501
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_501
       rect:
         serializedVersion: 2
         x: 1127
@@ -6188,7 +7218,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_502
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_502
       rect:
         serializedVersion: 2
         x: 1147
@@ -6199,7 +7231,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_503
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_503
       rect:
         serializedVersion: 2
         x: 1171
@@ -6210,7 +7244,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_504
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_504
       rect:
         serializedVersion: 2
         x: 0
@@ -6221,7 +7257,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_505
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_505
       rect:
         serializedVersion: 2
         x: 33
@@ -6232,7 +7270,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_506
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_506
       rect:
         serializedVersion: 2
         x: 66
@@ -6243,7 +7283,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_507
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_507
       rect:
         serializedVersion: 2
         x: 88
@@ -6254,7 +7296,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_508
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_508
       rect:
         serializedVersion: 2
         x: 110
@@ -6265,7 +7309,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_509
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_509
       rect:
         serializedVersion: 2
         x: 135
@@ -6276,7 +7322,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_510
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_510
       rect:
         serializedVersion: 2
         x: 160
@@ -6287,7 +7335,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_511
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_511
       rect:
         serializedVersion: 2
         x: 180
@@ -6298,7 +7348,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_512
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_512
       rect:
         serializedVersion: 2
         x: 200
@@ -6309,7 +7361,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_513
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_513
       rect:
         serializedVersion: 2
         x: 220
@@ -6320,7 +7374,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_514
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_514
       rect:
         serializedVersion: 2
         x: 240
@@ -6331,7 +7387,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_515
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_515
       rect:
         serializedVersion: 2
         x: 260
@@ -6342,7 +7400,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_516
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_516
       rect:
         serializedVersion: 2
         x: 280
@@ -6353,7 +7413,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_517
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_517
       rect:
         serializedVersion: 2
         x: 300
@@ -6364,7 +7426,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_518
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_518
       rect:
         serializedVersion: 2
         x: 320
@@ -6375,7 +7439,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_519
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_519
       rect:
         serializedVersion: 2
         x: 340
@@ -6386,7 +7452,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_520
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_520
       rect:
         serializedVersion: 2
         x: 360
@@ -6397,7 +7465,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_521
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_521
       rect:
         serializedVersion: 2
         x: 380
@@ -6408,7 +7478,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_522
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_522
       rect:
         serializedVersion: 2
         x: 400
@@ -6419,7 +7491,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_523
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_523
       rect:
         serializedVersion: 2
         x: 420
@@ -6430,7 +7504,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_524
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_524
       rect:
         serializedVersion: 2
         x: 442
@@ -6441,7 +7517,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_525
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_525
       rect:
         serializedVersion: 2
         x: 462
@@ -6452,7 +7530,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_526
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_526
       rect:
         serializedVersion: 2
         x: 484
@@ -6463,7 +7543,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_527
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_527
       rect:
         serializedVersion: 2
         x: 506
@@ -6474,7 +7556,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_528
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_528
       rect:
         serializedVersion: 2
         x: 528
@@ -6485,7 +7569,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_529
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_529
       rect:
         serializedVersion: 2
         x: 548
@@ -6496,7 +7582,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_530
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_530
       rect:
         serializedVersion: 2
         x: 568
@@ -6507,7 +7595,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_531
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_531
       rect:
         serializedVersion: 2
         x: 590
@@ -6518,7 +7608,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_532
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_532
       rect:
         serializedVersion: 2
         x: 612
@@ -6529,7 +7621,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_533
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_533
       rect:
         serializedVersion: 2
         x: 632
@@ -6540,7 +7634,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_534
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_534
       rect:
         serializedVersion: 2
         x: 652
@@ -6551,7 +7647,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_535
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_535
       rect:
         serializedVersion: 2
         x: 672
@@ -6562,7 +7660,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_536
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_536
       rect:
         serializedVersion: 2
         x: 692
@@ -6573,7 +7673,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_537
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_537
       rect:
         serializedVersion: 2
         x: 712
@@ -6584,7 +7686,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_538
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_538
       rect:
         serializedVersion: 2
         x: 732
@@ -6595,7 +7699,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_539
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_539
       rect:
         serializedVersion: 2
         x: 754
@@ -6606,7 +7712,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_540
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_540
       rect:
         serializedVersion: 2
         x: 774
@@ -6617,7 +7725,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_541
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_541
       rect:
         serializedVersion: 2
         x: 794
@@ -6628,7 +7738,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_542
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_542
       rect:
         serializedVersion: 2
         x: 814
@@ -6639,7 +7751,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_543
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_543
       rect:
         serializedVersion: 2
         x: 834
@@ -6650,7 +7764,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_544
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_544
       rect:
         serializedVersion: 2
         x: 855
@@ -6661,7 +7777,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_545
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_545
       rect:
         serializedVersion: 2
         x: 878
@@ -6672,7 +7790,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_546
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_546
       rect:
         serializedVersion: 2
         x: 902
@@ -6683,7 +7803,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_547
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_547
       rect:
         serializedVersion: 2
         x: 922
@@ -6694,7 +7816,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_548
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_548
       rect:
         serializedVersion: 2
         x: 942
@@ -6705,7 +7829,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_549
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_549
       rect:
         serializedVersion: 2
         x: 962
@@ -6716,7 +7842,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_550
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_550
       rect:
         serializedVersion: 2
         x: 982
@@ -6727,7 +7855,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_551
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_551
       rect:
         serializedVersion: 2
         x: 1002
@@ -6738,7 +7868,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_552
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_552
       rect:
         serializedVersion: 2
         x: 1024
@@ -6749,7 +7881,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_553
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_553
       rect:
         serializedVersion: 2
         x: 1046
@@ -6760,7 +7894,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_554
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_554
       rect:
         serializedVersion: 2
         x: 1066
@@ -6771,7 +7907,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_555
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_555
       rect:
         serializedVersion: 2
         x: 1087
@@ -6782,7 +7920,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_556
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_556
       rect:
         serializedVersion: 2
         x: 1107
@@ -6793,7 +7933,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_557
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_557
       rect:
         serializedVersion: 2
         x: 1127
@@ -6804,7 +7946,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_558
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_558
       rect:
         serializedVersion: 2
         x: 1147
@@ -6815,7 +7959,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_559
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_559
       rect:
         serializedVersion: 2
         x: 1171
@@ -6826,7 +7972,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_560
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_560
       rect:
         serializedVersion: 2
         x: 0
@@ -6837,7 +7985,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_561
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_561
       rect:
         serializedVersion: 2
         x: 33
@@ -6848,7 +7998,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_562
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_562
       rect:
         serializedVersion: 2
         x: 66
@@ -6859,7 +8011,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_563
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_563
       rect:
         serializedVersion: 2
         x: 88
@@ -6870,7 +8024,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_564
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_564
       rect:
         serializedVersion: 2
         x: 110
@@ -6881,7 +8037,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_565
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_565
       rect:
         serializedVersion: 2
         x: 135
@@ -6892,7 +8050,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_566
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_566
       rect:
         serializedVersion: 2
         x: 160
@@ -6903,7 +8063,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_567
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_567
       rect:
         serializedVersion: 2
         x: 180
@@ -6914,7 +8076,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_568
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_568
       rect:
         serializedVersion: 2
         x: 200
@@ -6925,7 +8089,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_569
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_569
       rect:
         serializedVersion: 2
         x: 220
@@ -6936,7 +8102,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_570
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_570
       rect:
         serializedVersion: 2
         x: 240
@@ -6947,7 +8115,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_571
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_571
       rect:
         serializedVersion: 2
         x: 260
@@ -6958,7 +8128,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_572
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_572
       rect:
         serializedVersion: 2
         x: 280
@@ -6969,7 +8141,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_573
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_573
       rect:
         serializedVersion: 2
         x: 300
@@ -6980,7 +8154,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_574
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_574
       rect:
         serializedVersion: 2
         x: 320
@@ -6991,7 +8167,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_575
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_575
       rect:
         serializedVersion: 2
         x: 340
@@ -7002,7 +8180,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_576
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_576
       rect:
         serializedVersion: 2
         x: 360
@@ -7013,7 +8193,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_577
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_577
       rect:
         serializedVersion: 2
         x: 380
@@ -7024,7 +8206,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_578
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_578
       rect:
         serializedVersion: 2
         x: 400
@@ -7035,7 +8219,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_579
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_579
       rect:
         serializedVersion: 2
         x: 420
@@ -7046,7 +8232,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_580
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_580
       rect:
         serializedVersion: 2
         x: 442
@@ -7057,7 +8245,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_581
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_581
       rect:
         serializedVersion: 2
         x: 462
@@ -7068,7 +8258,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_582
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_582
       rect:
         serializedVersion: 2
         x: 484
@@ -7079,7 +8271,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_583
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_583
       rect:
         serializedVersion: 2
         x: 506
@@ -7090,7 +8284,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_584
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_584
       rect:
         serializedVersion: 2
         x: 528
@@ -7101,7 +8297,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_585
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_585
       rect:
         serializedVersion: 2
         x: 548
@@ -7112,7 +8310,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_586
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_586
       rect:
         serializedVersion: 2
         x: 568
@@ -7123,7 +8323,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_587
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_587
       rect:
         serializedVersion: 2
         x: 590
@@ -7134,7 +8336,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_588
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_588
       rect:
         serializedVersion: 2
         x: 612
@@ -7145,7 +8349,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_589
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_589
       rect:
         serializedVersion: 2
         x: 632
@@ -7156,7 +8362,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_590
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_590
       rect:
         serializedVersion: 2
         x: 652
@@ -7167,7 +8375,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_591
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_591
       rect:
         serializedVersion: 2
         x: 672
@@ -7178,7 +8388,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_592
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_592
       rect:
         serializedVersion: 2
         x: 692
@@ -7189,7 +8401,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_593
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_593
       rect:
         serializedVersion: 2
         x: 712
@@ -7200,7 +8414,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_594
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_594
       rect:
         serializedVersion: 2
         x: 732
@@ -7211,7 +8427,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_595
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_595
       rect:
         serializedVersion: 2
         x: 754
@@ -7222,7 +8440,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_596
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_596
       rect:
         serializedVersion: 2
         x: 774
@@ -7233,7 +8453,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_597
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_597
       rect:
         serializedVersion: 2
         x: 794
@@ -7244,7 +8466,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_598
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_598
       rect:
         serializedVersion: 2
         x: 814
@@ -7255,7 +8479,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_599
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_599
       rect:
         serializedVersion: 2
         x: 834
@@ -7266,7 +8492,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_600
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_600
       rect:
         serializedVersion: 2
         x: 855
@@ -7277,7 +8505,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_601
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_601
       rect:
         serializedVersion: 2
         x: 878
@@ -7288,7 +8518,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_602
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_602
       rect:
         serializedVersion: 2
         x: 902
@@ -7299,7 +8531,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_603
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_603
       rect:
         serializedVersion: 2
         x: 922
@@ -7310,7 +8544,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_604
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_604
       rect:
         serializedVersion: 2
         x: 942
@@ -7321,7 +8557,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_605
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_605
       rect:
         serializedVersion: 2
         x: 962
@@ -7332,7 +8570,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_606
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_606
       rect:
         serializedVersion: 2
         x: 982
@@ -7343,7 +8583,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_607
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_607
       rect:
         serializedVersion: 2
         x: 1002
@@ -7354,7 +8596,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_608
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_608
       rect:
         serializedVersion: 2
         x: 1024
@@ -7365,7 +8609,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_609
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_609
       rect:
         serializedVersion: 2
         x: 1046
@@ -7376,7 +8622,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_610
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_610
       rect:
         serializedVersion: 2
         x: 1066
@@ -7387,7 +8635,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_611
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_611
       rect:
         serializedVersion: 2
         x: 1087
@@ -7398,7 +8648,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_612
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_612
       rect:
         serializedVersion: 2
         x: 1107
@@ -7409,7 +8661,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_613
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_613
       rect:
         serializedVersion: 2
         x: 1127
@@ -7420,7 +8674,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_614
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_614
       rect:
         serializedVersion: 2
         x: 1147
@@ -7431,7 +8687,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: chao_615
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chao_615
       rect:
         serializedVersion: 2
         x: 1171
@@ -7442,6 +8700,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
